@@ -1,0 +1,760 @@
+States/UTs,District,Location,Anomaly,Anomaly_Score,Pattern
+Andhra Pradesh,Anantapur,"Anantapur, Andhra Pradesh",False,0.43445315907096194,Typical Pattern
+Andhra Pradesh,Chittoor,"Chittoor, Andhra Pradesh",False,0.41340548029057145,Typical Pattern
+Andhra Pradesh,Cuddapah,"Cuddapah, Andhra Pradesh",False,0.4569564563011089,Typical Pattern
+Andhra Pradesh,East Godavari,"East Godavari, Andhra Pradesh",False,0.4349015864297776,Typical Pattern
+Andhra Pradesh,Guntur,"Guntur, Andhra Pradesh",False,0.42948070999738674,Typical Pattern
+Andhra Pradesh,Guntur Urban,"Guntur Urban, Andhra Pradesh",False,0.4188721831644369,Typical Pattern
+Andhra Pradesh,Krishna,"Krishna, Andhra Pradesh",False,0.4284970630360748,Typical Pattern
+Andhra Pradesh,Kurnool,"Kurnool, Andhra Pradesh",False,0.42514981045801603,Typical Pattern
+Andhra Pradesh,Nellore,"Nellore, Andhra Pradesh",False,0.48199603594827733,Typical Pattern
+Andhra Pradesh,Prakasham,"Prakasham, Andhra Pradesh",False,0.4423598122266298,Typical Pattern
+Andhra Pradesh,Rajahmundry,"Rajahmundry, Andhra Pradesh",False,0.3988768104198514,Typical Pattern
+Andhra Pradesh,Srikakulam,"Srikakulam, Andhra Pradesh",False,0.41783090781196935,Typical Pattern
+Andhra Pradesh,Tirupathi Urban,"Tirupathi Urban, Andhra Pradesh",False,0.4196261385460942,Typical Pattern
+Andhra Pradesh,Vijayawada City,"Vijayawada City, Andhra Pradesh",False,0.48940960131736355,Typical Pattern
+Andhra Pradesh,Visakha Rural,"Visakha Rural, Andhra Pradesh",False,0.3867191249564558,Typical Pattern
+Andhra Pradesh,Visakhapatnam,"Visakhapatnam, Andhra Pradesh",False,0.44662652310432527,Typical Pattern
+Andhra Pradesh,Vizianagaram,"Vizianagaram, Andhra Pradesh",False,0.39033810580556033,Typical Pattern
+Andhra Pradesh,West Godavari,"West Godavari, Andhra Pradesh",False,0.47111255190487067,Typical Pattern
+Arunachal Pradesh,Anjaw,"Anjaw, Arunachal Pradesh",False,0.495715330145454,Typical Pattern
+Arunachal Pradesh,Changlang,"Changlang, Arunachal Pradesh",False,0.4669144505174681,Typical Pattern
+Arunachal Pradesh,Dibang Valley,"Dibang Valley, Arunachal Pradesh",False,0.4990163418267427,Typical Pattern
+Arunachal Pradesh,Kameng East,"Kameng East, Arunachal Pradesh",False,0.47989687202680126,Typical Pattern
+Arunachal Pradesh,Kameng West,"Kameng West, Arunachal Pradesh",False,0.45727644569795056,Typical Pattern
+Arunachal Pradesh,Kukung Kumey,"Kukung Kumey, Arunachal Pradesh",False,0.47197293638404225,Typical Pattern
+Arunachal Pradesh,Lohit,"Lohit, Arunachal Pradesh",False,0.42308015718735015,Typical Pattern
+Arunachal Pradesh,Longding,"Longding, Arunachal Pradesh",False,0.5128505042124645,Typical Pattern
+Arunachal Pradesh,Lower Dibang Valley,"Lower Dibang Valley, Arunachal Pradesh",False,0.47258023951594375,Typical Pattern
+Arunachal Pradesh,Papum Pare City,"Papum Pare City, Arunachal Pradesh",False,0.4171427730531875,Typical Pattern
+Arunachal Pradesh,Papum Pare Rural,"Papum Pare Rural, Arunachal Pradesh",False,0.4766271103638655,Typical Pattern
+Arunachal Pradesh,Siang East,"Siang East, Arunachal Pradesh",False,0.4836157909787067,Typical Pattern
+Arunachal Pradesh,Siang Upper,"Siang Upper, Arunachal Pradesh",False,0.4991183199844331,Typical Pattern
+Arunachal Pradesh,Siang West,"Siang West, Arunachal Pradesh",False,0.4388217132528286,Typical Pattern
+Arunachal Pradesh,Subansiri Lower,"Subansiri Lower, Arunachal Pradesh",False,0.47436026708850404,Typical Pattern
+Arunachal Pradesh,Subansiri Upper,"Subansiri Upper, Arunachal Pradesh",False,0.45660413866989036,Typical Pattern
+Arunachal Pradesh,Tawang,"Tawang, Arunachal Pradesh",False,0.49852177638156586,Typical Pattern
+Arunachal Pradesh,Tirap,"Tirap, Arunachal Pradesh",False,0.4735410302864918,Typical Pattern
+Assam,Barpeta,"Barpeta, Assam",False,0.5055851297886703,Typical Pattern
+Assam,Baska,"Baska, Assam",False,0.4234221900002365,Typical Pattern
+Assam,Bongaigaon,"Bongaigaon, Assam",False,0.3774936586153294,Typical Pattern
+Assam,Cachar,"Cachar, Assam",False,0.4234424893848367,Typical Pattern
+Assam,Chirang,"Chirang, Assam",False,0.470156632022451,Typical Pattern
+Assam,Darrang,"Darrang, Assam",False,0.45054889680977017,Typical Pattern
+Assam,Dhemaji,"Dhemaji, Assam",False,0.4661659360343726,Typical Pattern
+Assam,Dhubri,"Dhubri, Assam",True,0.5334927049416499,Unusual Pattern
+Assam,Dibrugarh,"Dibrugarh, Assam",False,0.43936955852157794,Typical Pattern
+Assam,Goalpara,"Goalpara, Assam",False,0.44011929872981365,Typical Pattern
+Assam,Golaghat,"Golaghat, Assam",False,0.5235322777267496,Typical Pattern
+Assam,Guwahati City,"Guwahati City, Assam",True,0.5640783702112182,Unusual Pattern
+Assam,Hailakandi,"Hailakandi, Assam",False,0.41895384197842317,Typical Pattern
+Assam,Jorhat,"Jorhat, Assam",False,0.4240217271385703,Typical Pattern
+Assam,Kamrup,"Kamrup, Assam",False,0.5129226237936676,Typical Pattern
+Assam,Karbi Anglong,"Karbi Anglong, Assam",True,0.5333811089904754,Unusual Pattern
+Assam,Karimganj,"Karimganj, Assam",False,0.45110097908820046,Typical Pattern
+Assam,Kokrajhar,"Kokrajhar, Assam",False,0.41344973394014073,Typical Pattern
+Assam,Lakhimpur,"Lakhimpur, Assam",False,0.41003072608289615,Typical Pattern
+Assam,Morigaon,"Morigaon, Assam",False,0.4932380576814012,Typical Pattern
+Assam,N. C. Hills,"N. C. Hills, Assam",False,0.47267028995561494,Typical Pattern
+Assam,Nagaon,"Nagaon, Assam",True,0.5604396826696175,Unusual Pattern
+Assam,Nalbari,"Nalbari, Assam",False,0.4347928451214416,Typical Pattern
+Assam,Sibsagar,"Sibsagar, Assam",False,0.5009891059953517,Typical Pattern
+Assam,Sonitpur,"Sonitpur, Assam",False,0.4563164408426323,Typical Pattern
+Assam,Tinsukia,"Tinsukia, Assam",False,0.4764449305735116,Typical Pattern
+Assam,Udalguri,"Udalguri, Assam",False,0.4121264514296637,Typical Pattern
+Bihar,Araria,"Araria, Bihar",False,0.440212083928557,Typical Pattern
+Bihar,Arwal,"Arwal, Bihar",False,0.4565498361035758,Typical Pattern
+Bihar,Aurangabad,"Aurangabad, Bihar",True,0.5307667345572363,Unusual Pattern
+Bihar,Bagaha,"Bagaha, Bihar",False,0.4343024440760733,Typical Pattern
+Bihar,Banka,"Banka, Bihar",False,0.45805926806515945,Typical Pattern
+Bihar,Begusarai,"Begusarai, Bihar",False,0.520207396164465,Typical Pattern
+Bihar,Bettiah,"Bettiah, Bihar",False,0.42049931668768886,Typical Pattern
+Bihar,Bhabhua,"Bhabhua, Bihar",False,0.42619845181051785,Typical Pattern
+Bihar,Bhagalpur,"Bhagalpur, Bihar",False,0.46549519784928783,Typical Pattern
+Bihar,Bhojpur,"Bhojpur, Bihar",False,0.5045635658443378,Typical Pattern
+Bihar,Buxar,"Buxar, Bihar",False,0.414822095032537,Typical Pattern
+Bihar,Darbhanga,"Darbhanga, Bihar",False,0.4575869361507026,Typical Pattern
+Bihar,Gaya,"Gaya, Bihar",False,0.5205768826402823,Typical Pattern
+Bihar,Gopalganj,"Gopalganj, Bihar",False,0.4630882825402286,Typical Pattern
+Bihar,Jamui,"Jamui, Bihar",False,0.4322991936782328,Typical Pattern
+Bihar,Jehanabad,"Jehanabad, Bihar",False,0.4419348662378785,Typical Pattern
+Bihar,Katihar,"Katihar, Bihar",False,0.43025867655617395,Typical Pattern
+Bihar,Khagaria,"Khagaria, Bihar",False,0.4272118920794676,Typical Pattern
+Bihar,Kishanganj,"Kishanganj, Bihar",False,0.41002544930080237,Typical Pattern
+Bihar,Lakhisarai,"Lakhisarai, Bihar",False,0.5044310386754887,Typical Pattern
+Bihar,Madhepura,"Madhepura, Bihar",False,0.47742028002864695,Typical Pattern
+Bihar,Madhubani,"Madhubani, Bihar",False,0.48147426383188713,Typical Pattern
+Bihar,Motihari,"Motihari, Bihar",False,0.499367272202105,Typical Pattern
+Bihar,Munger,"Munger, Bihar",False,0.4111865002699796,Typical Pattern
+Bihar,Muzaffarpur,"Muzaffarpur, Bihar",True,0.5509447800477473,Unusual Pattern
+Bihar,Nalanda,"Nalanda, Bihar",False,0.4780285300156634,Typical Pattern
+Bihar,Naugachia,"Naugachia, Bihar",False,0.3984497670007235,Typical Pattern
+Bihar,Nawadah,"Nawadah, Bihar",False,0.4332023464802971,Typical Pattern
+Bihar,Patna,"Patna, Bihar",True,0.5876487525254286,Unusual Pattern
+Bihar,Purnea,"Purnea, Bihar",False,0.47838563358928293,Typical Pattern
+Bihar,Rohtas,"Rohtas, Bihar",False,0.4493128629718494,Typical Pattern
+Bihar,Saharsa,"Saharsa, Bihar",False,0.413857585452738,Typical Pattern
+Bihar,Samastipur,"Samastipur, Bihar",False,0.49097160646869725,Typical Pattern
+Bihar,Saran,"Saran, Bihar",False,0.4854858367955744,Typical Pattern
+Bihar,Sheikhpura,"Sheikhpura, Bihar",False,0.4164921087005401,Typical Pattern
+Bihar,Sheohar,"Sheohar, Bihar",False,0.42783954005300917,Typical Pattern
+Bihar,Sitamarhi,"Sitamarhi, Bihar",False,0.5075255643330784,Typical Pattern
+Bihar,Siwan,"Siwan, Bihar",False,0.5010312107836381,Typical Pattern
+Bihar,Supaul,"Supaul, Bihar",False,0.41922745824031477,Typical Pattern
+Bihar,Vaishali,"Vaishali, Bihar",False,0.48259451451808966,Typical Pattern
+Bihar,Economic Offences Unit,"Economic Offences Unit, Bihar",False,0.4922766524597179,Typical Pattern
+Bihar,Anti Terrorist Squad,"Anti Terrorist Squad, Bihar",False,0.5042780846854519,Typical Pattern
+Chhattisgarh,Balod,"Balod, Chhattisgarh",False,0.41429713300471493,Typical Pattern
+Chhattisgarh,Balodbazar,"Balodbazar, Chhattisgarh",False,0.4100790801884615,Typical Pattern
+Chhattisgarh,Balrampur,"Balrampur, Chhattisgarh",False,0.44468964996315175,Typical Pattern
+Chhattisgarh,Bemetra,"Bemetra, Chhattisgarh",False,0.4087925448445691,Typical Pattern
+Chhattisgarh,Bilaspur,"Bilaspur, Chhattisgarh",False,0.40922827222400654,Typical Pattern
+Chhattisgarh,Bizapur,"Bizapur, Chhattisgarh",False,0.46186725494351333,Typical Pattern
+Chhattisgarh,Dantewara,"Dantewara, Chhattisgarh",False,0.4434234256595977,Typical Pattern
+Chhattisgarh,Dhamtari,"Dhamtari, Chhattisgarh",False,0.3983912975737405,Typical Pattern
+Chhattisgarh,Durg,"Durg, Chhattisgarh",False,0.44508207197316807,Typical Pattern
+Chhattisgarh,Gariyaband,"Gariyaband, Chhattisgarh",False,0.4143762485114412,Typical Pattern
+Chhattisgarh,Jagdalpur,"Jagdalpur, Chhattisgarh",False,0.4251237263154473,Typical Pattern
+Chhattisgarh,Janjgir,"Janjgir, Chhattisgarh",False,0.40534390789258473,Typical Pattern
+Chhattisgarh,Jashpur,"Jashpur, Chhattisgarh",False,0.44726186465887235,Typical Pattern
+Chhattisgarh,Kabirdham,"Kabirdham, Chhattisgarh",False,0.4014695729294358,Typical Pattern
+Chhattisgarh,Kanker,"Kanker, Chhattisgarh",False,0.42733235110996287,Typical Pattern
+Chhattisgarh,Kondagaon,"Kondagaon, Chhattisgarh",False,0.4170588295515929,Typical Pattern
+Chhattisgarh,Korba,"Korba, Chhattisgarh",False,0.4115964652251043,Typical Pattern
+Chhattisgarh,Koriya,"Koriya, Chhattisgarh",False,0.4338471074604158,Typical Pattern
+Chhattisgarh,Mahasamund,"Mahasamund, Chhattisgarh",False,0.39043709262065823,Typical Pattern
+Chhattisgarh,Mungali,"Mungali, Chhattisgarh",False,0.4386464252217277,Typical Pattern
+Chhattisgarh,Narayanpur,"Narayanpur, Chhattisgarh",False,0.480067430818558,Typical Pattern
+Chhattisgarh,Raigarh,"Raigarh, Chhattisgarh",False,0.4178950042801434,Typical Pattern
+Chhattisgarh,Raipur,"Raipur, Chhattisgarh",False,0.43112755844066497,Typical Pattern
+Chhattisgarh,Rajnandgaon,"Rajnandgaon, Chhattisgarh",False,0.401060683043013,Typical Pattern
+Chhattisgarh,Sarguja,"Sarguja, Chhattisgarh",False,0.4401457989795977,Typical Pattern
+Chhattisgarh,Sukma,"Sukma, Chhattisgarh",False,0.5028150378497974,Typical Pattern
+Chhattisgarh,Surajpur,"Surajpur, Chhattisgarh",False,0.38047182558883313,Typical Pattern
+Goa,North Goa,"North Goa, Goa",False,0.44754119995680963,Typical Pattern
+Goa,South Goa,"South Goa, Goa",False,0.4161182940694233,Typical Pattern
+Gujarat,Ahmedabad City,"Ahmedabad City, Gujarat",False,0.5178316505193749,Typical Pattern
+Gujarat,Ahmedabad Rural,"Ahmedabad Rural, Gujarat",False,0.4134610462010044,Typical Pattern
+Gujarat,Amreli,"Amreli, Gujarat",False,0.43295492677956654,Typical Pattern
+Gujarat,Anand,"Anand, Gujarat",False,0.4120280888033074,Typical Pattern
+Gujarat,Arvalli,"Arvalli, Gujarat",False,0.4258331511972756,Typical Pattern
+Gujarat,Banaskantha,"Banaskantha, Gujarat",False,0.4143275662885222,Typical Pattern
+Gujarat,Bharuch,"Bharuch, Gujarat",False,0.4388543609115401,Typical Pattern
+Gujarat,Bhavnagar,"Bhavnagar, Gujarat",False,0.41636651039713857,Typical Pattern
+Gujarat,Botad,"Botad, Gujarat",False,0.41521277434467996,Typical Pattern
+Gujarat,Chhotaudepur,"Chhotaudepur, Gujarat",False,0.4038536738314233,Typical Pattern
+Gujarat,Dahod,"Dahod, Gujarat",False,0.4190972922525987,Typical Pattern
+Gujarat,Dang,"Dang, Gujarat",False,0.4636085978834813,Typical Pattern
+Gujarat,Devbhumi Dwarka,"Devbhumi Dwarka, Gujarat",False,0.4312377506964666,Typical Pattern
+Gujarat,Gandhinagar,"Gandhinagar, Gujarat",False,0.430854438433022,Typical Pattern
+Gujarat,Gir Somnath,"Gir Somnath, Gujarat",False,0.3934725353680411,Typical Pattern
+Gujarat,Jamnagar,"Jamnagar, Gujarat",False,0.4163262686015282,Typical Pattern
+Gujarat,Junagadh,"Junagadh, Gujarat",False,0.4095379948847941,Typical Pattern
+Gujarat,Kachchh East(G),"Kachchh East(G), Gujarat",False,0.3949113313942351,Typical Pattern
+Gujarat,Kachchh West(B),"Kachchh West(B), Gujarat",False,0.4235239950483771,Typical Pattern
+Gujarat,Kheda,"Kheda, Gujarat",False,0.41687754165557894,Typical Pattern
+Gujarat,Mahisagar,"Mahisagar, Gujarat",False,0.4023851909538806,Typical Pattern
+Gujarat,Mehsana,"Mehsana, Gujarat",False,0.4372406783172441,Typical Pattern
+Gujarat,Morbi,"Morbi, Gujarat",False,0.42557690011930027,Typical Pattern
+Gujarat,Narmada,"Narmada, Gujarat",False,0.43658708543139196,Typical Pattern
+Gujarat,Navsari,"Navsari, Gujarat",False,0.4264569949455728,Typical Pattern
+Gujarat,Panchmahal,"Panchmahal, Gujarat",False,0.41689077016562204,Typical Pattern
+Gujarat,Patan,"Patan, Gujarat",False,0.40991852043735577,Typical Pattern
+Gujarat,Porbandar,"Porbandar, Gujarat",False,0.4122807059727308,Typical Pattern
+Gujarat,Rajkot City,"Rajkot City, Gujarat",False,0.4241908934277377,Typical Pattern
+Gujarat,Rajkot Rural,"Rajkot Rural, Gujarat",False,0.4035829302159468,Typical Pattern
+Gujarat,Sabarkantha,"Sabarkantha, Gujarat",False,0.4169794099020571,Typical Pattern
+Gujarat,Surat City,"Surat City, Gujarat",False,0.4540519605760084,Typical Pattern
+Gujarat,Surat Rural,"Surat Rural, Gujarat",False,0.4317446618095795,Typical Pattern
+Gujarat,Surendranagar,"Surendranagar, Gujarat",False,0.42858350944347795,Typical Pattern
+Gujarat,Tapi,"Tapi, Gujarat",False,0.4207005722522248,Typical Pattern
+Gujarat,Vadodara City,"Vadodara City, Gujarat",False,0.4768743736422399,Typical Pattern
+Gujarat,Vadodara Rural,"Vadodara Rural, Gujarat",False,0.4116635462068193,Typical Pattern
+Gujarat,Valsad,"Valsad, Gujarat",False,0.45035890999494227,Typical Pattern
+Gujarat,W.Rly  Ahmedabad,"W.Rly  Ahmedabad, Gujarat",False,0.45043701757626053,Typical Pattern
+Gujarat,W.Rly Vadodara,"W.Rly Vadodara, Gujarat",False,0.5090053510250266,Typical Pattern
+Haryana,Ambala (Rural),"Ambala (Rural), Haryana",False,0.4289650505500122,Typical Pattern
+Haryana,Ambala (Urban),"Ambala (Urban), Haryana",False,0.41349987432717455,Typical Pattern
+Haryana,Bhiwani,"Bhiwani, Haryana",False,0.41861094724222986,Typical Pattern
+Haryana,Faridabad,"Faridabad, Haryana",False,0.5060860176792367,Typical Pattern
+Haryana,Fatehabad,"Fatehabad, Haryana",False,0.4111045002223256,Typical Pattern
+Haryana,Gurgaon,"Gurgaon, Haryana",False,0.4912186322474797,Typical Pattern
+Haryana,Hissar,"Hissar, Haryana",False,0.43043393144310976,Typical Pattern
+Haryana,Jhajjar,"Jhajjar, Haryana",False,0.43139140578256074,Typical Pattern
+Haryana,Jind,"Jind, Haryana",False,0.40094104320391777,Typical Pattern
+Haryana,Kaithal,"Kaithal, Haryana",False,0.4210327820771599,Typical Pattern
+Haryana,Karnal,"Karnal, Haryana",False,0.44761787280614773,Typical Pattern
+Haryana,Kurukshetra,"Kurukshetra, Haryana",False,0.42953758715805157,Typical Pattern
+Haryana,Mahendergarh,"Mahendergarh, Haryana",False,0.4195271912920043,Typical Pattern
+Haryana,Mewat,"Mewat, Haryana",False,0.4146387615148292,Typical Pattern
+Haryana,Palwal,"Palwal, Haryana",False,0.40714010465466677,Typical Pattern
+Haryana,Panchkula,"Panchkula, Haryana",False,0.4371270232150228,Typical Pattern
+Haryana,Panipat,"Panipat, Haryana",False,0.4372459834496338,Typical Pattern
+Haryana,Rewari,"Rewari, Haryana",False,0.40716700231498115,Typical Pattern
+Haryana,Rohtak,"Rohtak, Haryana",False,0.41411841021645834,Typical Pattern
+Haryana,Sirsa,"Sirsa, Haryana",False,0.40994723488303214,Typical Pattern
+Haryana,Sonipat,"Sonipat, Haryana",False,0.4360306790418208,Typical Pattern
+Haryana,Yamunanagar,"Yamunanagar, Haryana",False,0.46756766488723056,Typical Pattern
+Haryana,Irrigation & Power,"Irrigation & Power, Haryana",False,0.510566276018773,Typical Pattern
+Himachal Pradesh,Baddi,"Baddi, Himachal Pradesh",False,0.41994287172917627,Typical Pattern
+Himachal Pradesh,Bilaspur,"Bilaspur, Himachal Pradesh",False,0.4159606681342474,Typical Pattern
+Himachal Pradesh,Chamba,"Chamba, Himachal Pradesh",False,0.4254522187557776,Typical Pattern
+Himachal Pradesh,Hamirpur,"Hamirpur, Himachal Pradesh",False,0.43766652093841163,Typical Pattern
+Himachal Pradesh,Kangra,"Kangra, Himachal Pradesh",False,0.4085984092225566,Typical Pattern
+Himachal Pradesh,Kinnaur,"Kinnaur, Himachal Pradesh",False,0.46853712205992853,Typical Pattern
+Himachal Pradesh,Kullu,"Kullu, Himachal Pradesh",False,0.4079342216055443,Typical Pattern
+Himachal Pradesh,Lahaul & Spiti,"Lahaul & Spiti, Himachal Pradesh",False,0.5071495238529327,Typical Pattern
+Himachal Pradesh,Mandi,"Mandi, Himachal Pradesh",False,0.435280915352485,Typical Pattern
+Himachal Pradesh,Shimla,"Shimla, Himachal Pradesh",False,0.42058522843356283,Typical Pattern
+Himachal Pradesh,Sirmaur,"Sirmaur, Himachal Pradesh",False,0.4079459748701062,Typical Pattern
+Himachal Pradesh,Solan,"Solan, Himachal Pradesh",False,0.4521170850637911,Typical Pattern
+Himachal Pradesh,Una,"Una, Himachal Pradesh",False,0.4156865466423851,Typical Pattern
+Jammu & Kashmir,Anantnag,"Anantnag, Jammu & Kashmir",False,0.4315258616032975,Typical Pattern
+Jammu & Kashmir,Awantipora,"Awantipora, Jammu & Kashmir",False,0.43764299804409756,Typical Pattern
+Jammu & Kashmir,Bandipora,"Bandipora, Jammu & Kashmir",False,0.44110346808915557,Typical Pattern
+Jammu & Kashmir,Baramulla,"Baramulla, Jammu & Kashmir",False,0.43916359460274035,Typical Pattern
+Jammu & Kashmir,Budgam,"Budgam, Jammu & Kashmir",False,0.4469498660231076,Typical Pattern
+Jammu & Kashmir,Crime Jammu,"Crime Jammu, Jammu & Kashmir",False,0.4926098328059229,Typical Pattern
+Jammu & Kashmir,Crime Srinagar,"Crime Srinagar, Jammu & Kashmir",False,0.4908791212638323,Typical Pattern
+Jammu & Kashmir,Doda,"Doda, Jammu & Kashmir",False,0.4485762486153994,Typical Pattern
+Jammu & Kashmir,Ganderbal,"Ganderbal, Jammu & Kashmir",False,0.477158263740414,Typical Pattern
+Jammu & Kashmir,Handwara,"Handwara, Jammu & Kashmir",False,0.4367611093320072,Typical Pattern
+Jammu & Kashmir,Jammu,"Jammu, Jammu & Kashmir",False,0.4118742390224359,Typical Pattern
+Jammu & Kashmir,Kargil,"Kargil, Jammu & Kashmir",False,0.4970949076978142,Typical Pattern
+Jammu & Kashmir,Kathua,"Kathua, Jammu & Kashmir",False,0.4208480441697502,Typical Pattern
+Jammu & Kashmir,Kishtwar,"Kishtwar, Jammu & Kashmir",False,0.46429383424521775,Typical Pattern
+Jammu & Kashmir,Kulgam,"Kulgam, Jammu & Kashmir",False,0.425636789359985,Typical Pattern
+Jammu & Kashmir,Kupwara,"Kupwara, Jammu & Kashmir",False,0.4402387263683858,Typical Pattern
+Jammu & Kashmir,Leh,"Leh, Jammu & Kashmir",False,0.4738137618976184,Typical Pattern
+Jammu & Kashmir,Poonch,"Poonch, Jammu & Kashmir",False,0.4282403742805963,Typical Pattern
+Jammu & Kashmir,Pulwama,"Pulwama, Jammu & Kashmir",False,0.4323014073375773,Typical Pattern
+Jammu & Kashmir,Rajouri,"Rajouri, Jammu & Kashmir",False,0.45488674481612335,Typical Pattern
+Jammu & Kashmir,Ramban,"Ramban, Jammu & Kashmir",False,0.4529586255596003,Typical Pattern
+Jammu & Kashmir,Reasi,"Reasi, Jammu & Kashmir",False,0.4317809930623706,Typical Pattern
+Jammu & Kashmir,Samba,"Samba, Jammu & Kashmir",False,0.4329831461494084,Typical Pattern
+Jammu & Kashmir,Shopian,"Shopian, Jammu & Kashmir",False,0.44169356061378195,Typical Pattern
+Jammu & Kashmir,Sopore,"Sopore, Jammu & Kashmir",False,0.42818381151873547,Typical Pattern
+Jammu & Kashmir,Srinagar,"Srinagar, Jammu & Kashmir",False,0.44342214979034084,Typical Pattern
+Jammu & Kashmir,Udhampur,"Udhampur, Jammu & Kashmir",False,0.4267599830667295,Typical Pattern
+Jharkhand,Bokaro,"Bokaro, Jharkhand",False,0.5021361860793269,Typical Pattern
+Jharkhand,Chaibasa,"Chaibasa, Jharkhand",False,0.459323567184741,Typical Pattern
+Jharkhand,Chatra,"Chatra, Jharkhand",False,0.48392593631368885,Typical Pattern
+Jharkhand,Deoghar,"Deoghar, Jharkhand",False,0.4066247602223244,Typical Pattern
+Jharkhand,Dhanbad,"Dhanbad, Jharkhand",False,0.5079873345176665,Typical Pattern
+Jharkhand,Dumka,"Dumka, Jharkhand",False,0.47454175977166874,Typical Pattern
+Jharkhand,Garhwa,"Garhwa, Jharkhand",False,0.4394249253296908,Typical Pattern
+Jharkhand,Giridih,"Giridih, Jharkhand",False,0.4673366185544188,Typical Pattern
+Jharkhand,Godda,"Godda, Jharkhand",False,0.4488944479179933,Typical Pattern
+Jharkhand,Gumla,"Gumla, Jharkhand",False,0.4991874830583372,Typical Pattern
+Jharkhand,Hazaribagh,"Hazaribagh, Jharkhand",False,0.4531168265687158,Typical Pattern
+Jharkhand,Jamshedpur,"Jamshedpur, Jharkhand",False,0.44560321937324837,Typical Pattern
+Jharkhand,Jamtara,"Jamtara, Jharkhand",False,0.44347336780152696,Typical Pattern
+Jharkhand,Khunti,"Khunti, Jharkhand",False,0.4861908151993929,Typical Pattern
+Jharkhand,Koderma,"Koderma, Jharkhand",False,0.4346622906450639,Typical Pattern
+Jharkhand,Latehar,"Latehar, Jharkhand",False,0.4292920279842634,Typical Pattern
+Jharkhand,Lohardagga,"Lohardagga, Jharkhand",False,0.4057881799171689,Typical Pattern
+Jharkhand,Pakur,"Pakur, Jharkhand",False,0.46771037250382425,Typical Pattern
+Jharkhand,Palamu,"Palamu, Jharkhand",False,0.5013613522271432,Typical Pattern
+Jharkhand,Ramgarh,"Ramgarh, Jharkhand",False,0.43615748181010644,Typical Pattern
+Jharkhand,Ranchi,"Ranchi, Jharkhand",False,0.46681594331712833,Typical Pattern
+Jharkhand,Sahebganj,"Sahebganj, Jharkhand",False,0.4558425618057735,Typical Pattern
+Jharkhand,Saraikela,"Saraikela, Jharkhand",False,0.4369868142873726,Typical Pattern
+Jharkhand,Simdega,"Simdega, Jharkhand",False,0.4537090526716898,Typical Pattern
+Karnataka,Bagalkot,"Bagalkot, Karnataka",False,0.3995760511943841,Typical Pattern
+Karnataka,Bengaluru City,"Bengaluru City, Karnataka",True,0.6232112550245632,Unusual Pattern
+Karnataka,Bengaluru District,"Bengaluru District, Karnataka",False,0.4541769319361778,Typical Pattern
+Karnataka,Belagavi District,"Belagavi District, Karnataka",False,0.4166056058799012,Typical Pattern
+Karnataka,Ballari,"Ballari, Karnataka",False,0.41853356559757676,Typical Pattern
+Karnataka,Bidar,"Bidar, Karnataka",False,0.4327235441256584,Typical Pattern
+Karnataka,Vijayapura,"Vijayapura, Karnataka",False,0.402286348186612,Typical Pattern
+Karnataka,Chikkaballapura,"Chikkaballapura, Karnataka",False,0.4116483360700058,Typical Pattern
+Karnataka,Chamarajnagar,"Chamarajnagar, Karnataka",False,0.40385273517000536,Typical Pattern
+Karnataka,Chikkamagaluru,"Chikkamagaluru, Karnataka",False,0.4061869291547337,Typical Pattern
+Karnataka,Chitradurga,"Chitradurga, Karnataka",False,0.40553325284727715,Typical Pattern
+Karnataka,Dakshina Kannada,"Dakshina Kannada, Karnataka",False,0.40424203983176954,Typical Pattern
+Karnataka,Davanagere,"Davanagere, Karnataka",False,0.39474431885478384,Typical Pattern
+Karnataka,Dharwad,"Dharwad, Karnataka",False,0.40744266401340473,Typical Pattern
+Karnataka,Gadag,"Gadag, Karnataka",False,0.40718949231192825,Typical Pattern
+Karnataka,Kalaburgi,"Kalaburgi, Karnataka",False,0.47163075821775663,Typical Pattern
+Karnataka,Hassan,"Hassan, Karnataka",False,0.4154020446667843,Typical Pattern
+Karnataka,Haveri,"Haveri, Karnataka",False,0.41658164597931835,Typical Pattern
+Karnataka,Hubballi Dharwad City,"Hubballi Dharwad City, Karnataka",False,0.40536940957485423,Typical Pattern
+Karnataka,K.G.F.,"K.G.F., Karnataka",False,0.41338684551320737,Typical Pattern
+Karnataka,Kodagu,"Kodagu, Karnataka",False,0.3867347862004371,Typical Pattern
+Karnataka,Kolar,"Kolar, Karnataka",False,0.40425224493640854,Typical Pattern
+Karnataka,Koppal,"Koppal, Karnataka",False,0.39702619221467544,Typical Pattern
+Karnataka,Mandya,"Mandya, Karnataka",False,0.4066581008368228,Typical Pattern
+Karnataka,Mangaluru City,"Mangaluru City, Karnataka",False,0.42730951335469264,Typical Pattern
+Karnataka,Mysuru City,"Mysuru City, Karnataka",False,0.4159560174231381,Typical Pattern
+Karnataka,Mysuru District,"Mysuru District, Karnataka",False,0.3977808905134242,Typical Pattern
+Karnataka,Raichur,"Raichur, Karnataka",False,0.4039327570224852,Typical Pattern
+Karnataka,Ramanagar,"Ramanagar, Karnataka",False,0.4333498228851895,Typical Pattern
+Karnataka,Shimoga,"Shimoga, Karnataka",False,0.42401499822321137,Typical Pattern
+Karnataka,Tumakuru,"Tumakuru, Karnataka",False,0.41412394167812033,Typical Pattern
+Karnataka,Udupi,"Udupi, Karnataka",False,0.42255438720511,Typical Pattern
+Karnataka,Uttara Kannada,"Uttara Kannada, Karnataka",False,0.4157170412313584,Typical Pattern
+Karnataka,Yadgiri,"Yadgiri, Karnataka",False,0.41085152121443014,Typical Pattern
+Karnataka,Belagavi City,"Belagavi City, Karnataka",False,0.40778134294674906,Typical Pattern
+Kerala,Alapuzha,"Alapuzha, Kerala",False,0.5021901858904462,Typical Pattern
+Kerala,Ernakulam Commr.,"Ernakulam Commr., Kerala",False,0.5176748830759287,Typical Pattern
+Kerala,Ernakulam Rural,"Ernakulam Rural, Kerala",False,0.4930550820680909,Typical Pattern
+Kerala,Idukki,"Idukki, Kerala",False,0.4439243446765356,Typical Pattern
+Kerala,Kannur,"Kannur, Kerala",False,0.47467518907025924,Typical Pattern
+Kerala,Kasargod,"Kasargod, Kerala",False,0.5130189398326459,Typical Pattern
+Kerala,Kollam Commr.,"Kollam Commr., Kerala",False,0.4711891507187888,Typical Pattern
+Kerala,Kollam Rural,"Kollam Rural, Kerala",False,0.4636229039203681,Typical Pattern
+Kerala,Kottayam,"Kottayam, Kerala",False,0.4856339058528706,Typical Pattern
+Kerala,Kozhikode Commr.,"Kozhikode Commr., Kerala",False,0.45986104325947147,Typical Pattern
+Kerala,Kozhikode Rural,"Kozhikode Rural, Kerala",False,0.5119692894142636,Typical Pattern
+Kerala,Malappuram,"Malappuram, Kerala",False,0.5138287190793027,Typical Pattern
+Kerala,Palakkad,"Palakkad, Kerala",False,0.48699916281804057,Typical Pattern
+Kerala,Pathanamthitta,"Pathanamthitta, Kerala",False,0.49626864365772155,Typical Pattern
+Kerala,Thrissur Commr.,"Thrissur Commr., Kerala",False,0.4808933767314235,Typical Pattern
+Kerala,Thrissur Rural,"Thrissur Rural, Kerala",False,0.5102681707618011,Typical Pattern
+Kerala,Trivandrum Commr.,"Trivandrum Commr., Kerala",False,0.47117999780979497,Typical Pattern
+Kerala,Trivandrum Rural,"Trivandrum Rural, Kerala",False,0.4809009007235434,Typical Pattern
+Kerala,Wayanadu,"Wayanadu, Kerala",False,0.47845836091567584,Typical Pattern
+Madhya Pradesh,Agar,"Agar, Madhya Pradesh",False,0.411357890422971,Typical Pattern
+Madhya Pradesh,Alirajpur,"Alirajpur, Madhya Pradesh",False,0.4123271342255945,Typical Pattern
+Madhya Pradesh,Anuppur,"Anuppur, Madhya Pradesh",False,0.39382704829772786,Typical Pattern
+Madhya Pradesh,Ashok Nagar,"Ashok Nagar, Madhya Pradesh",False,0.39059929042471225,Typical Pattern
+Madhya Pradesh,Balaghat,"Balaghat, Madhya Pradesh",False,0.405234707049574,Typical Pattern
+Madhya Pradesh,Barwani,"Barwani, Madhya Pradesh",False,0.40227781157420867,Typical Pattern
+Madhya Pradesh,Betul,"Betul, Madhya Pradesh",False,0.4521088364547238,Typical Pattern
+Madhya Pradesh,Bhind,"Bhind, Madhya Pradesh",False,0.44812928190425655,Typical Pattern
+Madhya Pradesh,Bhopal,"Bhopal, Madhya Pradesh",False,0.4738466762035036,Typical Pattern
+Madhya Pradesh,Burhanpur,"Burhanpur, Madhya Pradesh",False,0.3828397918832611,Typical Pattern
+Madhya Pradesh,Chhatarpur,"Chhatarpur, Madhya Pradesh",False,0.4286149813844469,Typical Pattern
+Madhya Pradesh,Chhindwara,"Chhindwara, Madhya Pradesh",False,0.44379700020101914,Typical Pattern
+Madhya Pradesh,Damoh,"Damoh, Madhya Pradesh",False,0.39358594170687644,Typical Pattern
+Madhya Pradesh,Datia,"Datia, Madhya Pradesh",False,0.393032876539546,Typical Pattern
+Madhya Pradesh,Dewas,"Dewas, Madhya Pradesh",False,0.4249628147944231,Typical Pattern
+Madhya Pradesh,Dhar,"Dhar, Madhya Pradesh",False,0.4419349510374306,Typical Pattern
+Madhya Pradesh,Dindori,"Dindori, Madhya Pradesh",False,0.4339714020381159,Typical Pattern
+Madhya Pradesh,Guna,"Guna, Madhya Pradesh",False,0.4243385594662606,Typical Pattern
+Madhya Pradesh,Gwalior,"Gwalior, Madhya Pradesh",False,0.4717518367897853,Typical Pattern
+Madhya Pradesh,Harda,"Harda, Madhya Pradesh",False,0.4301345064681563,Typical Pattern
+Madhya Pradesh,Hoshangabad,"Hoshangabad, Madhya Pradesh",False,0.4049472002243583,Typical Pattern
+Madhya Pradesh,Indore,"Indore, Madhya Pradesh",True,0.5483067291056904,Unusual Pattern
+Madhya Pradesh,Jabalpur,"Jabalpur, Madhya Pradesh",False,0.5038015592989344,Typical Pattern
+Madhya Pradesh,Jhabua,"Jhabua, Madhya Pradesh",False,0.40544759583419554,Typical Pattern
+Madhya Pradesh,Katni,"Katni, Madhya Pradesh",False,0.41108317828535695,Typical Pattern
+Madhya Pradesh,Khandwa,"Khandwa, Madhya Pradesh",False,0.4046477245859026,Typical Pattern
+Madhya Pradesh,Khargone,"Khargone, Madhya Pradesh",False,0.4293516512833374,Typical Pattern
+Madhya Pradesh,Mandla,"Mandla, Madhya Pradesh",False,0.4251515932340003,Typical Pattern
+Madhya Pradesh,Mandsaur,"Mandsaur, Madhya Pradesh",False,0.3921471867399206,Typical Pattern
+Madhya Pradesh,Morena,"Morena, Madhya Pradesh",False,0.4244435507306264,Typical Pattern
+Madhya Pradesh,Narsinghpur,"Narsinghpur, Madhya Pradesh",False,0.4234373350663054,Typical Pattern
+Madhya Pradesh,Neemuch,"Neemuch, Madhya Pradesh",False,0.399888280556736,Typical Pattern
+Madhya Pradesh,Panna,"Panna, Madhya Pradesh",False,0.42777410082793177,Typical Pattern
+Madhya Pradesh,Raisen,"Raisen, Madhya Pradesh",False,0.422082625145073,Typical Pattern
+Madhya Pradesh,Rajgarh,"Rajgarh, Madhya Pradesh",False,0.41199906056999436,Typical Pattern
+Madhya Pradesh,Ratlam,"Ratlam, Madhya Pradesh",False,0.3999356129347021,Typical Pattern
+Madhya Pradesh,Rewa,"Rewa, Madhya Pradesh",False,0.4546095475269872,Typical Pattern
+Madhya Pradesh,Sagar,"Sagar, Madhya Pradesh",False,0.4404707971146253,Typical Pattern
+Madhya Pradesh,Satna,"Satna, Madhya Pradesh",False,0.4775329243339163,Typical Pattern
+Madhya Pradesh,Seoni,"Seoni, Madhya Pradesh",False,0.4187419506225451,Typical Pattern
+Madhya Pradesh,Shahdol,"Shahdol, Madhya Pradesh",False,0.42003626682535794,Typical Pattern
+Madhya Pradesh,Shajapur,"Shajapur, Madhya Pradesh",False,0.40779728104944307,Typical Pattern
+Madhya Pradesh,Sheopur,"Sheopur, Madhya Pradesh",False,0.376102898301226,Typical Pattern
+Madhya Pradesh,Shivpuri,"Shivpuri, Madhya Pradesh",False,0.45125840366316666,Typical Pattern
+Madhya Pradesh,Sidhi,"Sidhi, Madhya Pradesh",False,0.4059005413975742,Typical Pattern
+Madhya Pradesh,Sehore,"Sehore, Madhya Pradesh",False,0.4126914504358326,Typical Pattern
+Madhya Pradesh,Singrauli,"Singrauli, Madhya Pradesh",False,0.43686693970531726,Typical Pattern
+Madhya Pradesh,Tikamgarh,"Tikamgarh, Madhya Pradesh",False,0.4148163727035721,Typical Pattern
+Madhya Pradesh,Ujjain,"Ujjain, Madhya Pradesh",False,0.44815608705777926,Typical Pattern
+Madhya Pradesh,Umaria,"Umaria, Madhya Pradesh",False,0.43800811745646495,Typical Pattern
+Madhya Pradesh,Vidisha,"Vidisha, Madhya Pradesh",False,0.4224997871610509,Typical Pattern
+Maharashtra,Ahmednagar,"Ahmednagar, Maharashtra",False,0.4743108062475661,Typical Pattern
+Maharashtra,Akola,"Akola, Maharashtra",False,0.4209665004584688,Typical Pattern
+Maharashtra,Amravati Commr.,"Amravati Commr., Maharashtra",False,0.4243698677932179,Typical Pattern
+Maharashtra,Amravati Rural,"Amravati Rural, Maharashtra",False,0.42856328487944895,Typical Pattern
+Maharashtra,Aurangabad Commr.,"Aurangabad Commr., Maharashtra",False,0.4596788053763773,Typical Pattern
+Maharashtra,Aurangabad Rural,"Aurangabad Rural, Maharashtra",False,0.41406052518930353,Typical Pattern
+Maharashtra,Beed,"Beed, Maharashtra",False,0.4276358955422662,Typical Pattern
+Maharashtra,Bhandara,"Bhandara, Maharashtra",False,0.3946792174439289,Typical Pattern
+Maharashtra,Buldhana,"Buldhana, Maharashtra",False,0.4198499930050967,Typical Pattern
+Maharashtra,Chandrapur,"Chandrapur, Maharashtra",False,0.41024116169015384,Typical Pattern
+Maharashtra,Dhule,"Dhule, Maharashtra",False,0.43822361071217436,Typical Pattern
+Maharashtra,Gadchiroli,"Gadchiroli, Maharashtra",False,0.41743348596610474,Typical Pattern
+Maharashtra,Gondia,"Gondia, Maharashtra",False,0.4239373471862285,Typical Pattern
+Maharashtra,Hingoli,"Hingoli, Maharashtra",False,0.3954879500375635,Typical Pattern
+Maharashtra,Jalgaon,"Jalgaon, Maharashtra",False,0.46244866351198677,Typical Pattern
+Maharashtra,Jalna,"Jalna, Maharashtra",False,0.428412176206079,Typical Pattern
+Maharashtra,Kolhapur,"Kolhapur, Maharashtra",False,0.46545031920980995,Typical Pattern
+Maharashtra,Latur,"Latur, Maharashtra",False,0.42591681379940977,Typical Pattern
+Maharashtra,Mumbai Commr.,"Mumbai Commr., Maharashtra",True,0.6653326451202919,Unusual Pattern
+Maharashtra,Nagpur Commr.,"Nagpur Commr., Maharashtra",False,0.4731275120851548,Typical Pattern
+Maharashtra,Nagpur Rural,"Nagpur Rural, Maharashtra",False,0.4243610538805702,Typical Pattern
+Maharashtra,Nanded,"Nanded, Maharashtra",False,0.4421134082039633,Typical Pattern
+Maharashtra,Nandurbar,"Nandurbar, Maharashtra",False,0.39483888452094723,Typical Pattern
+Maharashtra,Nasik Commr.,"Nasik Commr., Maharashtra",False,0.4180766356039727,Typical Pattern
+Maharashtra,Nasik Rural,"Nasik Rural, Maharashtra",False,0.45267520880253653,Typical Pattern
+Maharashtra,Navi Mumbai,"Navi Mumbai, Maharashtra",False,0.4486141932728469,Typical Pattern
+Maharashtra,Osmanabad,"Osmanabad, Maharashtra",False,0.41001040493364393,Typical Pattern
+Maharashtra,Palghar,"Palghar, Maharashtra",False,0.45935085656977437,Typical Pattern
+Maharashtra,Parbhani,"Parbhani, Maharashtra",False,0.4202569712430777,Typical Pattern
+Maharashtra,Pune Commr.,"Pune Commr., Maharashtra",True,0.5347863375408807,Unusual Pattern
+Maharashtra,Pune Rural,"Pune Rural, Maharashtra",False,0.5077108407949247,Typical Pattern
+Maharashtra,Raigad,"Raigad, Maharashtra",False,0.43651337454318273,Typical Pattern
+Maharashtra,Ratnagiri,"Ratnagiri, Maharashtra",False,0.41492900593316573,Typical Pattern
+Maharashtra,Sangli,"Sangli, Maharashtra",False,0.40703530044669217,Typical Pattern
+Maharashtra,Satara,"Satara, Maharashtra",False,0.4564669357710854,Typical Pattern
+Maharashtra,Sindhudurg,"Sindhudurg, Maharashtra",False,0.4719948899586768,Typical Pattern
+Maharashtra,Solapur Commr.,"Solapur Commr., Maharashtra",False,0.41058902080144155,Typical Pattern
+Maharashtra,Solapur Rural,"Solapur Rural, Maharashtra",False,0.453092748966178,Typical Pattern
+Maharashtra,Thane Commr.,"Thane Commr., Maharashtra",True,0.5521190259400411,Unusual Pattern
+Maharashtra,Thane Rural,"Thane Rural, Maharashtra",False,0.4538294461433928,Typical Pattern
+Maharashtra,Wardha,"Wardha, Maharashtra",False,0.41462851569071807,Typical Pattern
+Maharashtra,Washim,"Washim, Maharashtra",False,0.41503519685109136,Typical Pattern
+Maharashtra,Yavatmal,"Yavatmal, Maharashtra",False,0.4548692002659316,Typical Pattern
+Manipur,Bishnupur,"Bishnupur, Manipur",False,0.42637148326953433,Typical Pattern
+Manipur,Chandel,"Chandel, Manipur",False,0.48309630468629683,Typical Pattern
+Manipur,Churachandpur,"Churachandpur, Manipur",False,0.4501357397437106,Typical Pattern
+Manipur,Imphal East,"Imphal East, Manipur",False,0.4397037694233573,Typical Pattern
+Manipur,Imphal West,"Imphal West, Manipur",False,0.49395698621804196,Typical Pattern
+Manipur,Senapati,"Senapati, Manipur",False,0.47739456716567824,Typical Pattern
+Manipur,Tamenglong,"Tamenglong, Manipur",False,0.4807420989530503,Typical Pattern
+Manipur,Thoubal,"Thoubal, Manipur",False,0.4253198561062468,Typical Pattern
+Manipur,Ukhrul,"Ukhrul, Manipur",False,0.4820411050405631,Typical Pattern
+Meghalaya,Garo Hills East,"Garo Hills East, Meghalaya",False,0.5217209623429024,Typical Pattern
+Meghalaya,Garo Hills North,"Garo Hills North, Meghalaya",False,0.49653053255807655,Typical Pattern
+Meghalaya,Garo Hills South,"Garo Hills South, Meghalaya",False,0.4865138728576215,Typical Pattern
+Meghalaya,Garo Hills South West,"Garo Hills South West, Meghalaya",False,0.5109201488297823,Typical Pattern
+Meghalaya,Garo Hills West,"Garo Hills West, Meghalaya",False,0.4719292519466852,Typical Pattern
+Meghalaya,Jaintia Hills West,"Jaintia Hills West, Meghalaya",False,0.43095389932822586,Typical Pattern
+Meghalaya,Jaintia Hills East,"Jaintia Hills East, Meghalaya",False,0.44884114811181053,Typical Pattern
+Meghalaya,Khasi Hills East,"Khasi Hills East, Meghalaya",False,0.4886831808062823,Typical Pattern
+Meghalaya,Khasi Hills South West,"Khasi Hills South West, Meghalaya",False,0.5223718546601047,Typical Pattern
+Meghalaya,Khasi Hills West,"Khasi Hills West, Meghalaya",False,0.45240382950424934,Typical Pattern
+Meghalaya,Ri-Bhoi,"Ri-Bhoi, Meghalaya",False,0.47530372334219473,Typical Pattern
+Mizoram,Aizawl,"Aizawl, Mizoram",False,0.49202413916378746,Typical Pattern
+Mizoram,Champhai,"Champhai, Mizoram",False,0.46666509279003665,Typical Pattern
+Mizoram,Kolasib,"Kolasib, Mizoram",False,0.5105483151497967,Typical Pattern
+Mizoram,Lawngtlai,"Lawngtlai, Mizoram",False,0.47336559910924153,Typical Pattern
+Mizoram,Lunglei,"Lunglei, Mizoram",False,0.48845669848416146,Typical Pattern
+Mizoram,Mamit,"Mamit, Mizoram",False,0.5024548445434354,Typical Pattern
+Mizoram,Saiha,"Saiha, Mizoram",False,0.48165503989210606,Typical Pattern
+Mizoram,Serchhip,"Serchhip, Mizoram",False,0.5109650007409927,Typical Pattern
+Mizoram,Spl Traffic,"Spl Traffic, Mizoram",False,0.52249805365099,Typical Pattern
+Nagaland,Dimapur,"Dimapur, Nagaland",False,0.49370551290497333,Typical Pattern
+Nagaland,Kiphire,"Kiphire, Nagaland",False,0.48150967959867763,Typical Pattern
+Nagaland,Kohima,"Kohima, Nagaland",False,0.4883236645980144,Typical Pattern
+Nagaland,Longleng,"Longleng, Nagaland",False,0.5148763449839874,Typical Pattern
+Nagaland,Mokokchung,"Mokokchung, Nagaland",False,0.47157078725921325,Typical Pattern
+Nagaland,Mon,"Mon, Nagaland",False,0.5127475015712507,Typical Pattern
+Nagaland,Peren,"Peren, Nagaland",True,0.5300865032469285,Unusual Pattern
+Nagaland,Phek,"Phek, Nagaland",False,0.4960902891775897,Typical Pattern
+Nagaland,Tuensang,"Tuensang, Nagaland",False,0.488457378071281,Typical Pattern
+Nagaland,Wokha,"Wokha, Nagaland",False,0.48421008581630975,Typical Pattern
+Nagaland,Zunheboto,"Zunheboto, Nagaland",False,0.4692533327579804,Typical Pattern
+Odisha,Angul,"Angul, Odisha",False,0.45743324197723134,Typical Pattern
+Odisha,Balasore,"Balasore, Odisha",False,0.45930925963736174,Typical Pattern
+Odisha,Baragarh,"Baragarh, Odisha",False,0.418242090918262,Typical Pattern
+Odisha,Berhampur,"Berhampur, Odisha",False,0.4671704360122962,Typical Pattern
+Odisha,Bhadrak,"Bhadrak, Odisha",False,0.40383065156565007,Typical Pattern
+Odisha,Bolangir,"Bolangir, Odisha",False,0.39716152733474896,Typical Pattern
+Odisha,Boudh,"Boudh, Odisha",False,0.43566843221625207,Typical Pattern
+Odisha,Cuttack,"Cuttack, Odisha",False,0.4044012571036799,Typical Pattern
+Odisha,DCP BBSR,"DCP BBSR, Odisha",False,0.4658087410238931,Typical Pattern
+Odisha,DCP CTC,"DCP CTC, Odisha",False,0.4420568857507731,Typical Pattern
+Odisha,Deogarh,"Deogarh, Odisha",False,0.4216683196935915,Typical Pattern
+Odisha,Dhenkanal,"Dhenkanal, Odisha",False,0.44402546018724476,Typical Pattern
+Odisha,Gajapati,"Gajapati, Odisha",False,0.4601562059011787,Typical Pattern
+Odisha,Ganjam,"Ganjam, Odisha",False,0.4547089578060548,Typical Pattern
+Odisha,Jagatsinghpur,"Jagatsinghpur, Odisha",False,0.43680460097088863,Typical Pattern
+Odisha,Jajpur,"Jajpur, Odisha",False,0.4880938554478581,Typical Pattern
+Odisha,Jharsuguda,"Jharsuguda, Odisha",False,0.4017208914149634,Typical Pattern
+Odisha,Kalahandi,"Kalahandi, Odisha",False,0.40258465942073784,Typical Pattern
+Odisha,Kandhamal,"Kandhamal, Odisha",False,0.40949573293914554,Typical Pattern
+Odisha,Kendrapara,"Kendrapara, Odisha",False,0.4370985495237559,Typical Pattern
+Odisha,Keonjhar,"Keonjhar, Odisha",False,0.43038950096912243,Typical Pattern
+Odisha,Khurda,"Khurda, Odisha",False,0.3981787125761773,Typical Pattern
+Odisha,Koraput,"Koraput, Odisha",False,0.40236901858530916,Typical Pattern
+Odisha,Malkangiri,"Malkangiri, Odisha",False,0.4678410144637047,Typical Pattern
+Odisha,Mayurbhanj,"Mayurbhanj, Odisha",False,0.4490146767381381,Typical Pattern
+Odisha,Nayagarh,"Nayagarh, Odisha",False,0.43062409815091873,Typical Pattern
+Odisha,Nabarangpur,"Nabarangpur, Odisha",False,0.4020238855029001,Typical Pattern
+Odisha,Nuapada,"Nuapada, Odisha",False,0.3956761959612786,Typical Pattern
+Odisha,Puri,"Puri, Odisha",False,0.43989593284817463,Typical Pattern
+Odisha,Rayagada,"Rayagada, Odisha",False,0.4163516276826621,Typical Pattern
+Odisha,Rourkela,"Rourkela, Odisha",False,0.4355952308049077,Typical Pattern
+Odisha,Sambalpur,"Sambalpur, Odisha",False,0.4693084184829929,Typical Pattern
+Odisha,Sonepur,"Sonepur, Odisha",False,0.40466211919262834,Typical Pattern
+Odisha,SRP (Cuttack),"SRP (Cuttack), Odisha",False,0.5177627324049519,Typical Pattern
+Odisha,SRP (Rourkela),"SRP (Rourkela), Odisha",False,0.47574797157202026,Typical Pattern
+Odisha,Sundargarh,"Sundargarh, Odisha",False,0.44760545099057725,Typical Pattern
+Punjab,Amritsar Rural,"Amritsar Rural, Punjab",False,0.44139253587131067,Typical Pattern
+Punjab,Barnala,"Barnala, Punjab",False,0.4379670277379477,Typical Pattern
+Punjab,Batala,"Batala, Punjab",False,0.4500563105879808,Typical Pattern
+Punjab,Bathinda,"Bathinda, Punjab",False,0.4083630217920392,Typical Pattern
+Punjab,CP Amritsar,"CP Amritsar, Punjab",False,0.4495016919207458,Typical Pattern
+Punjab,CP Jalandhar,"CP Jalandhar, Punjab",False,0.4584772386002688,Typical Pattern
+Punjab,CP Ludhiana,"CP Ludhiana, Punjab",False,0.5013577652564757,Typical Pattern
+Punjab,Faridkot,"Faridkot, Punjab",False,0.4104741511046916,Typical Pattern
+Punjab,Fatehgarh Sahib,"Fatehgarh Sahib, Punjab",False,0.4331317911426435,Typical Pattern
+Punjab,Fazilka,"Fazilka, Punjab",False,0.4554209903967549,Typical Pattern
+Punjab,Ferozepur,"Ferozepur, Punjab",False,0.46242432725708754,Typical Pattern
+Punjab,Gurdaspur,"Gurdaspur, Punjab",False,0.4464591783804544,Typical Pattern
+Punjab,Hoshiarpur,"Hoshiarpur, Punjab",False,0.44905929198445904,Typical Pattern
+Punjab,Jalandhar Rural,"Jalandhar Rural, Punjab",False,0.42038541868565227,Typical Pattern
+Punjab,Kapurthala,"Kapurthala, Punjab",False,0.4350229182801673,Typical Pattern
+Punjab,Khanna,"Khanna, Punjab",False,0.41673262962193164,Typical Pattern
+Punjab,Ludhiana Rural,"Ludhiana Rural, Punjab",False,0.4393987763146237,Typical Pattern
+Punjab,Mansa,"Mansa, Punjab",False,0.4545073317722786,Typical Pattern
+Punjab,Moga,"Moga, Punjab",False,0.4254770863816312,Typical Pattern
+Punjab,Muktsar,"Muktsar, Punjab",False,0.43359071151773554,Typical Pattern
+Punjab,Pathankot,"Pathankot, Punjab",False,0.4728534888954782,Typical Pattern
+Punjab,Patiala,"Patiala, Punjab",False,0.45274629620695406,Typical Pattern
+Punjab,Ropar,"Ropar, Punjab",False,0.41131929017489727,Typical Pattern
+Punjab,Sangrur,"Sangrur, Punjab",False,0.4212638012384933,Typical Pattern
+Punjab,SAS Nagar,"SAS Nagar, Punjab",False,0.4694385555550175,Typical Pattern
+Punjab,SBS Nagar,"SBS Nagar, Punjab",False,0.4370891674568169,Typical Pattern
+Punjab,Tarn Taran,"Tarn Taran, Punjab",False,0.4465777800193813,Typical Pattern
+Rajasthan,Ajmer,"Ajmer, Rajasthan",False,0.5146586122538732,Typical Pattern
+Rajasthan,Alwar,"Alwar, Rajasthan",True,0.5320230862499647,Unusual Pattern
+Rajasthan,Banswara,"Banswara, Rajasthan",False,0.44638673142927215,Typical Pattern
+Rajasthan,Baran,"Baran, Rajasthan",False,0.47919199488732334,Typical Pattern
+Rajasthan,Barmer,"Barmer, Rajasthan",False,0.4865357171068912,Typical Pattern
+Rajasthan,Bharatpur,"Bharatpur, Rajasthan",False,0.48335961674704225,Typical Pattern
+Rajasthan,Bhilwara,"Bhilwara, Rajasthan",False,0.4563664693572949,Typical Pattern
+Rajasthan,Bikaner,"Bikaner, Rajasthan",False,0.47239329486588977,Typical Pattern
+Rajasthan,Bundi,"Bundi, Rajasthan",False,0.4527646553113823,Typical Pattern
+Rajasthan,Chittorgarh,"Chittorgarh, Rajasthan",False,0.47747229509722056,Typical Pattern
+Rajasthan,Churu,"Churu, Rajasthan",False,0.4801780326252282,Typical Pattern
+Rajasthan,Dausa,"Dausa, Rajasthan",False,0.440942955854999,Typical Pattern
+Rajasthan,Dholpur,"Dholpur, Rajasthan",False,0.43747498521276634,Typical Pattern
+Rajasthan,Dungarpur,"Dungarpur, Rajasthan",False,0.41902903399153996,Typical Pattern
+Rajasthan,G.R.P.Ajmer,"G.R.P.Ajmer, Rajasthan",False,0.4910341878871509,Typical Pattern
+Rajasthan,G.R.P.Jodhpur,"G.R.P.Jodhpur, Rajasthan",False,0.4780183937694259,Typical Pattern
+Rajasthan,Ganganagar,"Ganganagar, Rajasthan",False,0.4963807051503417,Typical Pattern
+Rajasthan,Hanumangarh,"Hanumangarh, Rajasthan",False,0.4668838177403167,Typical Pattern
+Rajasthan,Jaipur East,"Jaipur East, Rajasthan",False,0.4618909495006751,Typical Pattern
+Rajasthan,Jaipur North,"Jaipur North, Rajasthan",False,0.44771003113442087,Typical Pattern
+Rajasthan,Jaipur Rural,"Jaipur Rural, Rajasthan",False,0.4790546941797708,Typical Pattern
+Rajasthan,Jaipur South,"Jaipur South, Rajasthan",False,0.4719526436268393,Typical Pattern
+Rajasthan,Jaipur West,"Jaipur West, Rajasthan",False,0.4810148989058427,Typical Pattern
+Rajasthan,Jaisalmer,"Jaisalmer, Rajasthan",False,0.42400678251790586,Typical Pattern
+Rajasthan,Jalore,"Jalore, Rajasthan",False,0.4105778933097988,Typical Pattern
+Rajasthan,Jhalawar,"Jhalawar, Rajasthan",False,0.4659321162243891,Typical Pattern
+Rajasthan,Jhunjhunu,"Jhunjhunu, Rajasthan",False,0.42185136061944317,Typical Pattern
+Rajasthan,Jodhpur East,"Jodhpur East, Rajasthan",False,0.44567958304785543,Typical Pattern
+Rajasthan,Jodhpur West,"Jodhpur West, Rajasthan",False,0.45384869239588005,Typical Pattern
+Rajasthan,Jodhpur Rural,"Jodhpur Rural, Rajasthan",False,0.44669665717053025,Typical Pattern
+Rajasthan,Karauli,"Karauli, Rajasthan",False,0.4420178173845792,Typical Pattern
+Rajasthan,Kota City,"Kota City, Rajasthan",False,0.49431389308241847,Typical Pattern
+Rajasthan,Kota Rural,"Kota Rural, Rajasthan",False,0.44492258680329855,Typical Pattern
+Rajasthan,Nagaur,"Nagaur, Rajasthan",False,0.4695760529934291,Typical Pattern
+Rajasthan,Pali,"Pali, Rajasthan",False,0.45654225583025526,Typical Pattern
+Rajasthan,Praapgarh,"Praapgarh, Rajasthan",False,0.44477591973148917,Typical Pattern
+Rajasthan,Rajsamand,"Rajsamand, Rajasthan",False,0.4610076998546837,Typical Pattern
+Rajasthan,Sawai Madhopur,"Sawai Madhopur, Rajasthan",False,0.46186922777254324,Typical Pattern
+Rajasthan,Sikar,"Sikar, Rajasthan",False,0.4274872553594153,Typical Pattern
+Rajasthan,Sirohi,"Sirohi, Rajasthan",False,0.41072182178672295,Typical Pattern
+Rajasthan,Tonk,"Tonk, Rajasthan",False,0.4675428113029577,Typical Pattern
+Rajasthan,Udaipur,"Udaipur, Rajasthan",False,0.5103397140253629,Typical Pattern
+Sikkim,East,"East, Sikkim",False,0.4655272361298157,Typical Pattern
+Sikkim,North,"North, Sikkim",False,0.49439660586129236,Typical Pattern
+Sikkim,South,"South, Sikkim",False,0.4647736697386817,Typical Pattern
+Sikkim,West,"West, Sikkim",False,0.484367578124771,Typical Pattern
+Sikkim,CID,"CID, Sikkim",False,0.4782025233748345,Typical Pattern
+Tamil Nadu,Ariyalur,"Ariyalur, Tamil Nadu",False,0.41986775488522354,Typical Pattern
+Tamil Nadu,Chennai,"Chennai, Tamil Nadu",False,0.5203278360930049,Typical Pattern
+Tamil Nadu,Coimbatore,"Coimbatore, Tamil Nadu",False,0.42832703716878645,Typical Pattern
+Tamil Nadu,Coimbatore City,"Coimbatore City, Tamil Nadu",False,0.46040294772005047,Typical Pattern
+Tamil Nadu,Cuddalore,"Cuddalore, Tamil Nadu",False,0.45736323404911333,Typical Pattern
+Tamil Nadu,Dharmapuri,"Dharmapuri, Tamil Nadu",False,0.39653605707046663,Typical Pattern
+Tamil Nadu,Dindigul,"Dindigul, Tamil Nadu",False,0.4279207550913149,Typical Pattern
+Tamil Nadu,Erode,"Erode, Tamil Nadu",False,0.42790449737689445,Typical Pattern
+Tamil Nadu,Kanchipuram,"Kanchipuram, Tamil Nadu",False,0.4208389191433469,Typical Pattern
+Tamil Nadu,Kanyakumari,"Kanyakumari, Tamil Nadu",False,0.48194948436611695,Typical Pattern
+Tamil Nadu,Karur,"Karur, Tamil Nadu",False,0.4296914598980018,Typical Pattern
+Tamil Nadu,Krishnagiri,"Krishnagiri, Tamil Nadu",False,0.40545485414554117,Typical Pattern
+Tamil Nadu,Madurai,"Madurai, Tamil Nadu",False,0.4428950920191199,Typical Pattern
+Tamil Nadu,Madurai City,"Madurai City, Tamil Nadu",False,0.4198379837013966,Typical Pattern
+Tamil Nadu,Nagapattinam,"Nagapattinam, Tamil Nadu",False,0.43179983841582703,Typical Pattern
+Tamil Nadu,Namakkal,"Namakkal, Tamil Nadu",False,0.45565505920334415,Typical Pattern
+Tamil Nadu,Nilgiris,"Nilgiris, Tamil Nadu",False,0.41495278888660975,Typical Pattern
+Tamil Nadu,Perambalur,"Perambalur, Tamil Nadu",False,0.42418024347878364,Typical Pattern
+Tamil Nadu,Pudukottai,"Pudukottai, Tamil Nadu",False,0.4209249417338245,Typical Pattern
+Tamil Nadu,Ramnathapuram,"Ramnathapuram, Tamil Nadu",False,0.396746016347249,Typical Pattern
+Tamil Nadu,Salem,"Salem, Tamil Nadu",False,0.41642340423536156,Typical Pattern
+Tamil Nadu,Salem City,"Salem City, Tamil Nadu",False,0.4131151518165916,Typical Pattern
+Tamil Nadu,Sivagangai,"Sivagangai, Tamil Nadu",False,0.4288820265107498,Typical Pattern
+Tamil Nadu,Thanjavur,"Thanjavur, Tamil Nadu",False,0.4216824217256915,Typical Pattern
+Tamil Nadu,Theni,"Theni, Tamil Nadu",False,0.40095126845261053,Typical Pattern
+Tamil Nadu,Thirunelveli,"Thirunelveli, Tamil Nadu",False,0.48340248305082234,Typical Pattern
+Tamil Nadu,Thirunelveli City,"Thirunelveli City, Tamil Nadu",False,0.46581701340875903,Typical Pattern
+Tamil Nadu,Thiruvallur,"Thiruvallur, Tamil Nadu",False,0.4154560251840548,Typical Pattern
+Tamil Nadu,Thiruvannamalai,"Thiruvannamalai, Tamil Nadu",False,0.4036001049614933,Typical Pattern
+Tamil Nadu,Thiruvarur,"Thiruvarur, Tamil Nadu",False,0.4171439286214152,Typical Pattern
+Tamil Nadu,Thoothugudi,"Thoothugudi, Tamil Nadu",False,0.45581474346653134,Typical Pattern
+Tamil Nadu,Tiruppur,"Tiruppur, Tamil Nadu",False,0.4083564696912953,Typical Pattern
+Tamil Nadu,Tiruppur City,"Tiruppur City, Tamil Nadu",False,0.44069665111571155,Typical Pattern
+Tamil Nadu,Trichy,"Trichy, Tamil Nadu",False,0.4443203072745934,Typical Pattern
+Tamil Nadu,Trichy City,"Trichy City, Tamil Nadu",False,0.4380777847829253,Typical Pattern
+Tamil Nadu,Vellore,"Vellore, Tamil Nadu",False,0.44955584505629675,Typical Pattern
+Tamil Nadu,Villupuram,"Villupuram, Tamil Nadu",False,0.44577764633438294,Typical Pattern
+Tamil Nadu,Virudhunagar,"Virudhunagar, Tamil Nadu",False,0.403212311964437,Typical Pattern
+Tamil Nadu,Other Units,"Other Units, Tamil Nadu",False,0.5042780846854519,Typical Pattern
+Telangana,Adilabad,"Adilabad, Telangana",False,0.4351527628133999,Typical Pattern
+Telangana,Cyberabad,"Cyberabad, Telangana",True,0.6166761068593515,Unusual Pattern
+Telangana,Hyderabad City,"Hyderabad City, Telangana",True,0.5276446289837832,Unusual Pattern
+Telangana,Karimnagar,"Karimnagar, Telangana",False,0.4373139488149919,Typical Pattern
+Telangana,Khammam,"Khammam, Telangana",False,0.4332502497640467,Typical Pattern
+Telangana,Mahaboob Nagar,"Mahaboob Nagar, Telangana",False,0.44864949375685603,Typical Pattern
+Telangana,Medak,"Medak, Telangana",False,0.41491214494660894,Typical Pattern
+Telangana,Nalgonda,"Nalgonda, Telangana",False,0.45775317070102567,Typical Pattern
+Telangana,Nizamabad,"Nizamabad, Telangana",False,0.43702013541317547,Typical Pattern
+Telangana,Ranga Reddy,"Ranga Reddy, Telangana",False,0.406704298647658,Typical Pattern
+Telangana,Warangal,"Warangal, Telangana",False,0.4168890007105856,Typical Pattern
+Telangana,Warangal Urban,"Warangal Urban, Telangana",False,0.4000443172935109,Typical Pattern
+Tripura,Dhalai,"Dhalai, Tripura",False,0.46294726860168584,Typical Pattern
+Tripura,Gomati,"Gomati, Tripura",False,0.44623755982039615,Typical Pattern
+Tripura,Kowai,"Kowai, Tripura",False,0.4572458249112195,Typical Pattern
+Tripura,North,"North, Tripura",False,0.4417335261913278,Typical Pattern
+Tripura,Sipahijala,"Sipahijala, Tripura",False,0.4024222057965478,Typical Pattern
+Tripura,South,"South, Tripura",False,0.45962501840255743,Typical Pattern
+Tripura,Unakoti,"Unakoti, Tripura",False,0.441165945217954,Typical Pattern
+Tripura,West,"West, Tripura",False,0.4381621347811099,Typical Pattern
+Uttar Pradesh,Agra,"Agra, Uttar Pradesh",True,0.5611217193494658,Unusual Pattern
+Uttar Pradesh,Aligarh,"Aligarh, Uttar Pradesh",True,0.5617807241310465,Unusual Pattern
+Uttar Pradesh,Allahabad,"Allahabad, Uttar Pradesh",False,0.5214292384838756,Typical Pattern
+Uttar Pradesh,Ambedkar Nagar,"Ambedkar Nagar, Uttar Pradesh",False,0.4108786648061436,Typical Pattern
+Uttar Pradesh,Amethi,"Amethi, Uttar Pradesh",False,0.4092501375204247,Typical Pattern
+Uttar Pradesh,Amroha,"Amroha, Uttar Pradesh",False,0.4345316371597197,Typical Pattern
+Uttar Pradesh,Auraiya,"Auraiya, Uttar Pradesh",False,0.40283553578596804,Typical Pattern
+Uttar Pradesh,Azamgarh,"Azamgarh, Uttar Pradesh",False,0.4298214780491609,Typical Pattern
+Uttar Pradesh,Badaun,"Badaun, Uttar Pradesh",False,0.44406407692923794,Typical Pattern
+Uttar Pradesh,Baghpat,"Baghpat, Uttar Pradesh",False,0.40386657039410995,Typical Pattern
+Uttar Pradesh,Bahraich,"Bahraich, Uttar Pradesh",False,0.46245918612364734,Typical Pattern
+Uttar Pradesh,Ballia,"Ballia, Uttar Pradesh",False,0.45177423080083684,Typical Pattern
+Uttar Pradesh,Balrampur,"Balrampur, Uttar Pradesh",False,0.43938265711862656,Typical Pattern
+Uttar Pradesh,Banda,"Banda, Uttar Pradesh",False,0.4316722989913919,Typical Pattern
+Uttar Pradesh,Barabanki,"Barabanki, Uttar Pradesh",False,0.43364158958681365,Typical Pattern
+Uttar Pradesh,Bareilly,"Bareilly, Uttar Pradesh",False,0.5004495737568475,Typical Pattern
+Uttar Pradesh,Basti,"Basti, Uttar Pradesh",False,0.41880410303001453,Typical Pattern
+Uttar Pradesh,Bijnor,"Bijnor, Uttar Pradesh",False,0.5104869834269496,Typical Pattern
+Uttar Pradesh,Bulandshahar,"Bulandshahar, Uttar Pradesh",True,0.5448242203739557,Unusual Pattern
+Uttar Pradesh,Chandoli,"Chandoli, Uttar Pradesh",False,0.4515433946716646,Typical Pattern
+Uttar Pradesh,Chitrakoot,"Chitrakoot, Uttar Pradesh",False,0.3961972491617126,Typical Pattern
+Uttar Pradesh,Deoria,"Deoria, Uttar Pradesh",False,0.45641713190171823,Typical Pattern
+Uttar Pradesh,Etah,"Etah, Uttar Pradesh",False,0.46637094989070116,Typical Pattern
+Uttar Pradesh,Etawah,"Etawah, Uttar Pradesh",False,0.4043681778360479,Typical Pattern
+Uttar Pradesh,Faizabad,"Faizabad, Uttar Pradesh",False,0.41251775287106646,Typical Pattern
+Uttar Pradesh,Fatehgarh,"Fatehgarh, Uttar Pradesh",False,0.4427349673477034,Typical Pattern
+Uttar Pradesh,Fatehpur,"Fatehpur, Uttar Pradesh",False,0.49407532345583005,Typical Pattern
+Uttar Pradesh,Firozabad,"Firozabad, Uttar Pradesh",False,0.48895106926427373,Typical Pattern
+Uttar Pradesh,Gautambudh Nagar,"Gautambudh Nagar, Uttar Pradesh",False,0.508595794279401,Typical Pattern
+Uttar Pradesh,Ghaziabad,"Ghaziabad, Uttar Pradesh",False,0.5210860902520941,Typical Pattern
+Uttar Pradesh,Ghazipur,"Ghazipur, Uttar Pradesh",False,0.4048512711367926,Typical Pattern
+Uttar Pradesh,Gonda,"Gonda, Uttar Pradesh",False,0.41766336349484573,Typical Pattern
+Uttar Pradesh,Gorakhpur,"Gorakhpur, Uttar Pradesh",False,0.4717644064426457,Typical Pattern
+Uttar Pradesh,Hamirpur,"Hamirpur, Uttar Pradesh",False,0.4139033071426347,Typical Pattern
+Uttar Pradesh,Hapur,"Hapur, Uttar Pradesh",False,0.41857428339342556,Typical Pattern
+Uttar Pradesh,Hardoi,"Hardoi, Uttar Pradesh",False,0.4454801416207668,Typical Pattern
+Uttar Pradesh,Hathras,"Hathras, Uttar Pradesh",False,0.44622027901515804,Typical Pattern
+Uttar Pradesh,Jalaun,"Jalaun, Uttar Pradesh",False,0.4225883527028425,Typical Pattern
+Uttar Pradesh,Jaunpur,"Jaunpur, Uttar Pradesh",False,0.4517254439867254,Typical Pattern
+Uttar Pradesh,Jhansi,"Jhansi, Uttar Pradesh",False,0.4546533205975101,Typical Pattern
+Uttar Pradesh,Kannauj,"Kannauj, Uttar Pradesh",False,0.408690111034589,Typical Pattern
+Uttar Pradesh,Kanpur Dehat,"Kanpur Dehat, Uttar Pradesh",False,0.4226275053365905,Typical Pattern
+Uttar Pradesh,Kanpur Nagar,"Kanpur Nagar, Uttar Pradesh",False,0.524176527427865,Typical Pattern
+Uttar Pradesh,Kasganj,"Kasganj, Uttar Pradesh",False,0.4802344529306317,Typical Pattern
+Uttar Pradesh,Kaushambi,"Kaushambi, Uttar Pradesh",False,0.4280809254554341,Typical Pattern
+Uttar Pradesh,Khiri,"Khiri, Uttar Pradesh",False,0.46277772228458464,Typical Pattern
+Uttar Pradesh,Kushi Nagar,"Kushi Nagar, Uttar Pradesh",False,0.42723018850883293,Typical Pattern
+Uttar Pradesh,Lalitpur,"Lalitpur, Uttar Pradesh",False,0.42526218630213497,Typical Pattern
+Uttar Pradesh,Lucknow,"Lucknow, Uttar Pradesh",True,0.5524274443944113,Unusual Pattern
+Uttar Pradesh,Maharajganj,"Maharajganj, Uttar Pradesh",False,0.39728464154569204,Typical Pattern
+Uttar Pradesh,Mahoba,"Mahoba, Uttar Pradesh",False,0.41909834078645475,Typical Pattern
+Uttar Pradesh,Mainpuri,"Mainpuri, Uttar Pradesh",False,0.43127366450681026,Typical Pattern
+Uttar Pradesh,Mathura,"Mathura, Uttar Pradesh",False,0.4611631844664469,Typical Pattern
+Uttar Pradesh,Mau,"Mau, Uttar Pradesh",False,0.4250112516179279,Typical Pattern
+Uttar Pradesh,Meerut,"Meerut, Uttar Pradesh",False,0.520399139430513,Typical Pattern
+Uttar Pradesh,Mirzapur,"Mirzapur, Uttar Pradesh",False,0.475854098042245,Typical Pattern
+Uttar Pradesh,Moradabad,"Moradabad, Uttar Pradesh",False,0.4567792923486779,Typical Pattern
+Uttar Pradesh,Muzaffarnagar,"Muzaffarnagar, Uttar Pradesh",False,0.47079125004603706,Typical Pattern
+Uttar Pradesh,Pilibhit,"Pilibhit, Uttar Pradesh",False,0.433643746250351,Typical Pattern
+Uttar Pradesh,Pratapgarh,"Pratapgarh, Uttar Pradesh",False,0.44723414258829847,Typical Pattern
+Uttar Pradesh,Raibareilly,"Raibareilly, Uttar Pradesh",False,0.4163377451346403,Typical Pattern
+Uttar Pradesh,Rampur,"Rampur, Uttar Pradesh",False,0.4135058228246227,Typical Pattern
+Uttar Pradesh,Saharanpur,"Saharanpur, Uttar Pradesh",False,0.45846346036994023,Typical Pattern
+Uttar Pradesh,Sambhal,"Sambhal, Uttar Pradesh",False,0.4199833464554275,Typical Pattern
+Uttar Pradesh,Sant Kabirnagar,"Sant Kabirnagar, Uttar Pradesh",False,0.43068151809518906,Typical Pattern
+Uttar Pradesh,Shahjahanpur,"Shahjahanpur, Uttar Pradesh",False,0.447440120501404,Typical Pattern
+Uttar Pradesh,Shamli,"Shamli, Uttar Pradesh",False,0.4322241051805455,Typical Pattern
+Uttar Pradesh,Shrawasti,"Shrawasti, Uttar Pradesh",False,0.44273604071697853,Typical Pattern
+Uttar Pradesh,Sidharthnagar,"Sidharthnagar, Uttar Pradesh",False,0.4186723811100762,Typical Pattern
+Uttar Pradesh,Sitapur,"Sitapur, Uttar Pradesh",False,0.42557477811731415,Typical Pattern
+Uttar Pradesh,Sonbhadra,"Sonbhadra, Uttar Pradesh",False,0.4826423117015385,Typical Pattern
+Uttar Pradesh,St.Ravidasnagar,"St.Ravidasnagar, Uttar Pradesh",False,0.4560089400341183,Typical Pattern
+Uttar Pradesh,Sultanpur,"Sultanpur, Uttar Pradesh",False,0.39783962019164104,Typical Pattern
+Uttar Pradesh,Unnao,"Unnao, Uttar Pradesh",False,0.45887141615808524,Typical Pattern
+Uttar Pradesh,Varanasi,"Varanasi, Uttar Pradesh",False,0.4738866206304315,Typical Pattern
+Uttarakhand,Almora,"Almora, Uttarakhand",False,0.46400340110659966,Typical Pattern
+Uttarakhand,Bageshwar,"Bageshwar, Uttarakhand",False,0.4835311001647026,Typical Pattern
+Uttarakhand,Chamoli,"Chamoli, Uttarakhand",False,0.463938131523867,Typical Pattern
+Uttarakhand,Champawat,"Champawat, Uttarakhand",False,0.4827168319905341,Typical Pattern
+Uttarakhand,Dehradun,"Dehradun, Uttarakhand",False,0.431096097258793,Typical Pattern
+Uttarakhand,Haridwar,"Haridwar, Uttarakhand",False,0.4873775981693163,Typical Pattern
+Uttarakhand,Nainital,"Nainital, Uttarakhand",False,0.39863920854416185,Typical Pattern
+Uttarakhand,Pauri Garhwal,"Pauri Garhwal, Uttarakhand",False,0.45404275969580926,Typical Pattern
+Uttarakhand,Pithoragarh,"Pithoragarh, Uttarakhand",False,0.47639684262937027,Typical Pattern
+Uttarakhand,Rudra Prayag,"Rudra Prayag, Uttarakhand",False,0.4511022678630091,Typical Pattern
+Uttarakhand,Tehri Garhwal,"Tehri Garhwal, Uttarakhand",False,0.4459252350390025,Typical Pattern
+Uttarakhand,Udhamsingh Nagar,"Udhamsingh Nagar, Uttarakhand",False,0.46109918078830986,Typical Pattern
+Uttarakhand,Uttarkashi,"Uttarkashi, Uttarakhand",False,0.4648435651819266,Typical Pattern
+West Bengal,North 24 Parganas,"North 24 Parganas, West Bengal",True,0.5856477589832055,Unusual Pattern
+West Bengal,South 24 Parganas,"South 24 Parganas, West Bengal",True,0.5710969091779012,Unusual Pattern
+West Bengal,Alipurduar,"Alipurduar, West Bengal",False,0.442715660576243,Typical Pattern
+West Bengal,Asansol-Durgapur PC,"Asansol-Durgapur PC, West Bengal",False,0.4675638732288397,Typical Pattern
+West Bengal,Bankura,"Bankura, West Bengal",False,0.405969239910556,Typical Pattern
+West Bengal,Barrackpur PC,"Barrackpur PC, West Bengal",False,0.5117065136936673,Typical Pattern
+West Bengal,Bidhannagar PC,"Bidhannagar PC, West Bengal",False,0.4392195530649586,Typical Pattern
+West Bengal,Birbhum,"Birbhum, West Bengal",False,0.5059544217217751,Typical Pattern
+West Bengal,Burdwan,"Burdwan, West Bengal",False,0.4961604421652113,Typical Pattern
+West Bengal,Coochbehar,"Coochbehar, West Bengal",True,0.5243826412858298,Unusual Pattern
+West Bengal,Dakshin Dinajpur,"Dakshin Dinajpur, West Bengal",False,0.509016492782418,Typical Pattern
+West Bengal,Darjeeling,"Darjeeling, West Bengal",False,0.47885916078311447,Typical Pattern
+West Bengal,Hooghly,"Hooghly, West Bengal",False,0.5037811672176055,Typical Pattern
+West Bengal,Howrah PC,"Howrah PC, West Bengal",False,0.45554370583407305,Typical Pattern
+West Bengal,Howrah Rural,"Howrah Rural, West Bengal",False,0.49951979993437534,Typical Pattern
+West Bengal,Jalpaiguri,"Jalpaiguri, West Bengal",False,0.4383281884277775,Typical Pattern
+West Bengal,Jhargram Police District,"Jhargram Police District, West Bengal",False,0.4327959557676589,Typical Pattern
+West Bengal,Kolkata,"Kolkata, West Bengal",True,0.6004441672045536,Unusual Pattern
+West Bengal,Malda,"Malda, West Bengal",True,0.5894623459519348,Unusual Pattern
+West Bengal,Murshidabad,"Murshidabad, West Bengal",True,0.5848747332689976,Unusual Pattern
+West Bengal,Nadia,"Nadia, West Bengal",True,0.5679083125088469,Unusual Pattern
+West Bengal,Paschim Medinipur,"Paschim Medinipur, West Bengal",False,0.5063289280114396,Typical Pattern
+West Bengal,Purab Medinipur,"Purab Medinipur, West Bengal",True,0.5426760491712986,Unusual Pattern
+West Bengal,Purulia,"Purulia, West Bengal",False,0.4459933366457985,Typical Pattern
+West Bengal,Siliguri PC,"Siliguri PC, West Bengal",False,0.4851067678949557,Typical Pattern
+West Bengal,Uttar Dinajpur,"Uttar Dinajpur, West Bengal",True,0.5641219208743254,Unusual Pattern
+A&N Islands,South Andaman,"South Andaman, A&N Islands",False,0.42677935425284097,Typical Pattern
+A&N Islands,North & Middle Andaman,"North & Middle Andaman, A&N Islands",False,0.47468516984921294,Typical Pattern
+A&N Islands,Nicobar,"Nicobar, A&N Islands",False,0.5074432969788218,Typical Pattern
+Chandigarh,Chandigarh,"Chandigarh, Chandigarh",False,0.4255173305509804,Typical Pattern
+D&N Haveli,D&N Haveli,"D&N Haveli, D&N Haveli",False,0.43707651769810413,Typical Pattern
+Daman & Diu,Daman,"Daman, Daman & Diu",False,0.4526261783262509,Typical Pattern
+Daman & Diu,Diu,"Diu, Daman & Diu",False,0.5096661053218525,Typical Pattern
+Delhi UT,Central,"Central, Delhi UT",True,0.5250900865741032,Unusual Pattern
+Delhi UT,East,"East, Delhi UT",True,0.546148978647067,Unusual Pattern
+Delhi UT,EOW,"EOW, Delhi UT",False,0.5142499570049953,Typical Pattern
+Delhi UT,IGI Airport,"IGI Airport, Delhi UT",False,0.5087767648475984,Typical Pattern
+Delhi UT,Metro,"Metro, Delhi UT",False,0.48004077215562263,Typical Pattern
+Delhi UT,New Delhi,"New Delhi, Delhi UT",False,0.4840903082352605,Typical Pattern
+Delhi UT,North,"North, Delhi UT",False,0.47015492162364686,Typical Pattern
+Delhi UT,North-East,"North-East, Delhi UT",True,0.550584781975974,Unusual Pattern
+Delhi UT,North-West,"North-West, Delhi UT",False,0.5236923404984757,Typical Pattern
+Delhi UT,Outer,"Outer, Delhi UT",True,0.560988461695856,Unusual Pattern
+Delhi UT,South,"South, Delhi UT",True,0.543154026898268,Unusual Pattern
+Delhi UT,South-East,"South-East, Delhi UT",True,0.5246371292649501,Unusual Pattern
+Delhi UT,South-West,"South-West, Delhi UT",True,0.5345762727864998,Unusual Pattern
+Delhi UT,Spl Cell,"Spl Cell, Delhi UT",False,0.48543148186234664,Typical Pattern
+Delhi UT,SPUWAC,"SPUWAC, Delhi UT",True,0.5306643983119314,Unusual Pattern
+Delhi UT,Vigilance,"Vigilance, Delhi UT",False,0.5042780846854519,Typical Pattern
+Delhi UT,West,"West, Delhi UT",True,0.5784441026613969,Unusual Pattern
+Lakshadweep,Lakshadweep,"Lakshadweep, Lakshadweep",False,0.5169741297861769,Typical Pattern
+Puducherry,Karaikal,"Karaikal, Puducherry",False,0.46791479065149444,Typical Pattern
+Puducherry,Puducherry,"Puducherry, Puducherry",False,0.43529501705350315,Typical Pattern

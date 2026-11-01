@@ -1,0 +1,399 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Crime Analytics Dashboard</title>
+    <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+
+    <style>
+    body {
+        background: #f4f6f8;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #303943;
+        font-size: 14px;
+    }
+
+    .navbar {
+        background: #243b53;
+        padding: 14px 0;
+        border-bottom: 3px solid #8da9c4;
+    }
+
+    .navbar-brand {
+        color: white;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+    }
+
+    .hero {
+        background: #ffffff;
+        color: #263746;
+        padding: 24px;
+        border: 1px solid #d7dee5;
+        border-left: 5px solid #456b8a;
+        border-radius: 0;
+        margin: 24px 0;
+    }
+
+    .hero h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .metric-card, .panel {
+        background: #ffffff;
+        border: 1px solid #d7dee5;
+        border-radius: 2px;
+        padding: 20px;
+        margin-bottom: 18px;
+        box-shadow: none;
+    }
+
+    .metric-card p {
+        color: #657383;
+        margin-bottom: 8px;
+        font-size: 13px;
+    }
+
+    .metric-value {
+        font-size: 25px;
+        font-weight: 600;
+        color: #294e70;
+    }
+
+    .section-title {
+        font-size: 18px;
+        font-weight: 600;
+        color: #263746;
+        margin-bottom: 18px;
+        border-bottom: 1px solid #e1e6eb;
+        padding-bottom: 10px;
+    }
+
+    .chart {
+        width: 100%;
+        height: auto;
+        border: 1px solid #e1e6eb;
+        padding: 5px;
+    }
+
+    .table {
+        font-size: 13px;
+    }
+
+    .table thead {
+        background: #e9eef3;
+        color: #263746;
+    }
+
+    .table th {
+        font-weight: 600;
+        white-space: nowrap;
+    }
+
+    .table td, .table th {
+        padding: 11px;
+        vertical-align: middle;
+    }
+
+    .footer {
+        text-align: center;
+        padding: 20px;
+        color: #687786;
+        border-top: 1px solid #d7dee5;
+        font-size: 12px;
+    }
+</style>
+</head>
+
+<body>
+<nav class="navbar">
+    <div class="container">
+        <div>
+            <span class="navbar-brand">CRIME STATISTICS PORTAL</span>
+            <div style="color: #d5e0e9; font-size: 12px; margin-top: 4px;">
+                District-Level Historical Crime Data Analysis
+            </div>
+        </div>
+
+        <a href="/" class="btn btn-outline-light btn-sm">Home</a>
+    </div>
+</nav>
+
+<div class="container">
+
+    <div class="hero">
+        <h1>AI-Based Crime Patterns Detection System</h1>
+        <p class="mb-0">
+            District-level crime analysis, clustering and unusual pattern detection.
+            Dataset reference year: 2014.
+        </p>
+    </div>
+
+    <h4 class="section-title">Dataset Overview</h4>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="metric-card">
+                <p>District Records</p>
+                <div class="metric-value">{{ summary.total_districts }}</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="metric-card">
+                <p>Selected Categories</p>
+                <div class="metric-value">{{ summary.total_categories }}</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="metric-card">
+                <p>Official IPC Total</p>
+                <div class="metric-value">{{ summary.total_recorded_crimes }}</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="metric-card">
+                <p>Unusual Patterns</p>
+                <div class="metric-value">{{ anomaly_count }}</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel">
+        <h4 class="section-title">Top 10 Districts by Official IPC Total</h4>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr><th>Rank</th><th>District</th><th>State/UT</th><th>Recorded Crimes</th></tr>
+                </thead>
+                <tbody>
+                    {% for district in top_districts %}
+                    <tr>
+    <td>{{ forloop.counter }}</td>
+    <td>{{ district.district }}</td>
+    <td>{{ district.state }}</td>
+    <td>{{ district.total_crimes }}</td>
+</tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="panel">
+    <div class="panel">
+    <h3 class="section-title">
+        Crime Pattern Explanation
+    </h3>
+
+    <h4>
+        Largest Crime-Category Differences:
+        {{ explanation_district }}
+    </h4>
+
+    <p>
+        This table compares the selected district's recorded
+        crime counts with the median across all districts.
+        It provides a statistical profile, not a causal
+        explanation or the internal decision logic of the
+        anomaly detection model.
+    </p>
+
+    <div class="table-responsive">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>Crime Category</th>
+                    <th>District Cases</th>
+                    <th>Dataset Median</th>
+                    <th>Difference</th>
+                    <th>Pattern</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in explanation %}
+                <tr>
+                    <td>{{ item.Crime_Category }}</td>
+                    <td>{{ item.District_Cases|floatformat:0 }}</td>
+                    <td>{{ item.Dataset_Median|floatformat:0 }}</td>
+                    <td>{{ item.Difference|floatformat:0 }}</td>
+                    <td>{{ item.Pattern }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+<div class="panel">
+    <h3 class="section-title">Anomaly Detection Model Comparison</h3>
+
+    <p>
+        Two machine-learning algorithms were applied to the same
+        standardized crime dataset to compare unusual district patterns.
+    </p>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Model</th>
+                <th>Districts Flagged</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Isolation Forest</td>
+                <td>{{ model_comparison.isolation_count }}</td>
+            </tr>
+            <tr>
+                <td>Local Outlier Factor</td>
+                <td>{{ model_comparison.lof_count }}</td>
+            </tr>
+            <tr>
+                <td>Flagged by Both Models</td>
+                <td>{{ model_comparison.both_count }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <h4>Model Agreement Analysis</h4>
+
+<table class="table table-hover">
+    <tbody>
+        <tr>
+            <th>Commonly Flagged Districts</th>
+            <td>{{ model_comparison.both_count }}</td>
+        </tr>
+        <tr>
+            <th>Total Unique Flagged Districts</th>
+            <td>{{ model_comparison.union_count }}</td>
+        </tr>
+        <tr>
+            <th>Jaccard Agreement</th>
+            <td>{{ model_comparison.jaccard_percentage }}%</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>
+    The Jaccard score measures the overlap between districts
+    flagged by both models and those flagged by either model.
+    A low score indicates limited agreement between the two
+    anomaly detection methods.
+</p>
+
+    <h4>Districts Flagged by Both Models</h4>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>District</th>
+                <th>State</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in agreement_districts %}
+            <tr>
+                <td>{{ item.district }}</td>
+                <td>{{ item.state }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="2">No common anomalies found.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+<div class="panel">
+    <h3 class="section-title">
+        Hyperparameter Sensitivity Analysis
+    </h3>
+
+    <p>
+        Isolation Forest was tested with different numbers of
+        trees and contamination settings to observe their effect
+        on anomaly detection.
+    </p>
+
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th>Number of Trees</th>
+                <th>Contamination</th>
+                <th>Anomalies Detected</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in hyperparameter_results %}
+            <tr>
+                <td>{{ item.Estimators }}</td>
+                <td>{{ item.Contamination|floatformat:2 }}</td>
+                <td>{{ item.Anomalies_Detected }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+    <p>
+        Observation: In this experiment, changing contamination
+        changed the number of detected anomalies, while increasing
+        the number of trees from 100 to 200 did not change the counts.
+        This is a sensitivity comparison, not proof of model accuracy.
+    </p>
+</div>
+        <h4 class="section-title">Crime Analysis Charts</h4>
+        <div class="row">
+            <div class="col-lg-6">
+                <h6>Top Districts</h6>
+                <img class="chart" src="{% static 'analytics/top_districts.png' %}" alt="Top districts chart">
+            </div>
+            <div class="col-lg-6">
+                <h6>Selected Crime Categories</h6>
+                <img class="chart" src="{% static 'analytics/top_categories.png' %}" alt="Crime categories chart">
+            </div>
+        </div>
+    </div>
+
+    <div class="panel">
+        <h4 class="section-title">K-Means District Clustering</h4>
+        <p>Silhouette Score: <strong>{{ silhouette_score }}</strong></p>
+        {% for cluster, count in cluster_counts.items %}
+            <p>Cluster {{ cluster }}: <strong>{{ count }} districts</strong></p>
+        {% endfor %}
+        <small class="text-muted">
+            Cluster quality is limited by overlap between groups. Clusters are based on
+            recorded counts, not district safety.
+        </small>
+    </div>
+
+    <div class="panel">
+        <h4 class="section-title">Unusual Crime Patterns — Isolation Forest</h4>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr><th>District</th><th>State/UT</th><th>Anomaly Score</th></tr>
+                </thead>
+                <tbody>
+                    {% for item in top_anomalies %}
+<tr>
+    <td>{{ item.district }}</td>
+    <td>{{ item.state }}</td>
+    <td>{{ item.Anomaly_Score|floatformat:4 }}</td>
+</tr>
+{% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <small class="text-muted">
+            An unusual pattern is not a prediction of crime or a measure of dangerousness.
+        </small>
+    </div>
+
+    <div class="footer">
+        AI-Based Crime Patterns Detection System | Academic Mini Project
+        <br>Historical dataset: 2014
+    </div>
+</div>
+</body>
+</html>

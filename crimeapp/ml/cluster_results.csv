@@ -1,0 +1,760 @@
+States/UTs,District,Location,Cluster
+Andhra Pradesh,Anantapur,"Anantapur, Andhra Pradesh",0
+Andhra Pradesh,Chittoor,"Chittoor, Andhra Pradesh",0
+Andhra Pradesh,Cuddapah,"Cuddapah, Andhra Pradesh",0
+Andhra Pradesh,East Godavari,"East Godavari, Andhra Pradesh",0
+Andhra Pradesh,Guntur,"Guntur, Andhra Pradesh",0
+Andhra Pradesh,Guntur Urban,"Guntur Urban, Andhra Pradesh",0
+Andhra Pradesh,Krishna,"Krishna, Andhra Pradesh",0
+Andhra Pradesh,Kurnool,"Kurnool, Andhra Pradesh",0
+Andhra Pradesh,Nellore,"Nellore, Andhra Pradesh",0
+Andhra Pradesh,Prakasham,"Prakasham, Andhra Pradesh",0
+Andhra Pradesh,Rajahmundry,"Rajahmundry, Andhra Pradesh",2
+Andhra Pradesh,Srikakulam,"Srikakulam, Andhra Pradesh",2
+Andhra Pradesh,Tirupathi Urban,"Tirupathi Urban, Andhra Pradesh",2
+Andhra Pradesh,Vijayawada City,"Vijayawada City, Andhra Pradesh",0
+Andhra Pradesh,Visakha Rural,"Visakha Rural, Andhra Pradesh",2
+Andhra Pradesh,Visakhapatnam,"Visakhapatnam, Andhra Pradesh",0
+Andhra Pradesh,Vizianagaram,"Vizianagaram, Andhra Pradesh",2
+Andhra Pradesh,West Godavari,"West Godavari, Andhra Pradesh",0
+Arunachal Pradesh,Anjaw,"Anjaw, Arunachal Pradesh",1
+Arunachal Pradesh,Changlang,"Changlang, Arunachal Pradesh",1
+Arunachal Pradesh,Dibang Valley,"Dibang Valley, Arunachal Pradesh",1
+Arunachal Pradesh,Kameng East,"Kameng East, Arunachal Pradesh",1
+Arunachal Pradesh,Kameng West,"Kameng West, Arunachal Pradesh",1
+Arunachal Pradesh,Kukung Kumey,"Kukung Kumey, Arunachal Pradesh",1
+Arunachal Pradesh,Lohit,"Lohit, Arunachal Pradesh",1
+Arunachal Pradesh,Longding,"Longding, Arunachal Pradesh",1
+Arunachal Pradesh,Lower Dibang Valley,"Lower Dibang Valley, Arunachal Pradesh",1
+Arunachal Pradesh,Papum Pare City,"Papum Pare City, Arunachal Pradesh",2
+Arunachal Pradesh,Papum Pare Rural,"Papum Pare Rural, Arunachal Pradesh",1
+Arunachal Pradesh,Siang East,"Siang East, Arunachal Pradesh",1
+Arunachal Pradesh,Siang Upper,"Siang Upper, Arunachal Pradesh",1
+Arunachal Pradesh,Siang West,"Siang West, Arunachal Pradesh",1
+Arunachal Pradesh,Subansiri Lower,"Subansiri Lower, Arunachal Pradesh",1
+Arunachal Pradesh,Subansiri Upper,"Subansiri Upper, Arunachal Pradesh",1
+Arunachal Pradesh,Tawang,"Tawang, Arunachal Pradesh",1
+Arunachal Pradesh,Tirap,"Tirap, Arunachal Pradesh",1
+Assam,Barpeta,"Barpeta, Assam",0
+Assam,Baska,"Baska, Assam",2
+Assam,Bongaigaon,"Bongaigaon, Assam",2
+Assam,Cachar,"Cachar, Assam",0
+Assam,Chirang,"Chirang, Assam",2
+Assam,Darrang,"Darrang, Assam",0
+Assam,Dhemaji,"Dhemaji, Assam",2
+Assam,Dhubri,"Dhubri, Assam",0
+Assam,Dibrugarh,"Dibrugarh, Assam",2
+Assam,Goalpara,"Goalpara, Assam",2
+Assam,Golaghat,"Golaghat, Assam",0
+Assam,Guwahati City,"Guwahati City, Assam",0
+Assam,Hailakandi,"Hailakandi, Assam",2
+Assam,Jorhat,"Jorhat, Assam",2
+Assam,Kamrup,"Kamrup, Assam",0
+Assam,Karbi Anglong,"Karbi Anglong, Assam",2
+Assam,Karimganj,"Karimganj, Assam",0
+Assam,Kokrajhar,"Kokrajhar, Assam",2
+Assam,Lakhimpur,"Lakhimpur, Assam",2
+Assam,Morigaon,"Morigaon, Assam",0
+Assam,N. C. Hills,"N. C. Hills, Assam",1
+Assam,Nagaon,"Nagaon, Assam",0
+Assam,Nalbari,"Nalbari, Assam",2
+Assam,Sibsagar,"Sibsagar, Assam",0
+Assam,Sonitpur,"Sonitpur, Assam",0
+Assam,Tinsukia,"Tinsukia, Assam",0
+Assam,Udalguri,"Udalguri, Assam",2
+Bihar,Araria,"Araria, Bihar",0
+Bihar,Arwal,"Arwal, Bihar",2
+Bihar,Aurangabad,"Aurangabad, Bihar",0
+Bihar,Bagaha,"Bagaha, Bihar",2
+Bihar,Banka,"Banka, Bihar",0
+Bihar,Begusarai,"Begusarai, Bihar",0
+Bihar,Bettiah,"Bettiah, Bihar",2
+Bihar,Bhabhua,"Bhabhua, Bihar",2
+Bihar,Bhagalpur,"Bhagalpur, Bihar",0
+Bihar,Bhojpur,"Bhojpur, Bihar",0
+Bihar,Buxar,"Buxar, Bihar",2
+Bihar,Darbhanga,"Darbhanga, Bihar",0
+Bihar,Gaya,"Gaya, Bihar",0
+Bihar,Gopalganj,"Gopalganj, Bihar",0
+Bihar,Jamui,"Jamui, Bihar",2
+Bihar,Jehanabad,"Jehanabad, Bihar",2
+Bihar,Katihar,"Katihar, Bihar",0
+Bihar,Khagaria,"Khagaria, Bihar",0
+Bihar,Kishanganj,"Kishanganj, Bihar",2
+Bihar,Lakhisarai,"Lakhisarai, Bihar",0
+Bihar,Madhepura,"Madhepura, Bihar",0
+Bihar,Madhubani,"Madhubani, Bihar",0
+Bihar,Motihari,"Motihari, Bihar",0
+Bihar,Munger,"Munger, Bihar",2
+Bihar,Muzaffarpur,"Muzaffarpur, Bihar",0
+Bihar,Nalanda,"Nalanda, Bihar",0
+Bihar,Naugachia,"Naugachia, Bihar",2
+Bihar,Nawadah,"Nawadah, Bihar",0
+Bihar,Patna,"Patna, Bihar",0
+Bihar,Purnea,"Purnea, Bihar",0
+Bihar,Rohtas,"Rohtas, Bihar",0
+Bihar,Saharsa,"Saharsa, Bihar",2
+Bihar,Samastipur,"Samastipur, Bihar",0
+Bihar,Saran,"Saran, Bihar",0
+Bihar,Sheikhpura,"Sheikhpura, Bihar",2
+Bihar,Sheohar,"Sheohar, Bihar",2
+Bihar,Sitamarhi,"Sitamarhi, Bihar",0
+Bihar,Siwan,"Siwan, Bihar",0
+Bihar,Supaul,"Supaul, Bihar",0
+Bihar,Vaishali,"Vaishali, Bihar",0
+Bihar,Economic Offences Unit,"Economic Offences Unit, Bihar",1
+Bihar,Anti Terrorist Squad,"Anti Terrorist Squad, Bihar",1
+Chhattisgarh,Balod,"Balod, Chhattisgarh",2
+Chhattisgarh,Balodbazar,"Balodbazar, Chhattisgarh",2
+Chhattisgarh,Balrampur,"Balrampur, Chhattisgarh",2
+Chhattisgarh,Bemetra,"Bemetra, Chhattisgarh",2
+Chhattisgarh,Bilaspur,"Bilaspur, Chhattisgarh",0
+Chhattisgarh,Bizapur,"Bizapur, Chhattisgarh",1
+Chhattisgarh,Dantewara,"Dantewara, Chhattisgarh",2
+Chhattisgarh,Dhamtari,"Dhamtari, Chhattisgarh",2
+Chhattisgarh,Durg,"Durg, Chhattisgarh",0
+Chhattisgarh,Gariyaband,"Gariyaband, Chhattisgarh",2
+Chhattisgarh,Jagdalpur,"Jagdalpur, Chhattisgarh",2
+Chhattisgarh,Janjgir,"Janjgir, Chhattisgarh",2
+Chhattisgarh,Jashpur,"Jashpur, Chhattisgarh",2
+Chhattisgarh,Kabirdham,"Kabirdham, Chhattisgarh",2
+Chhattisgarh,Kanker,"Kanker, Chhattisgarh",2
+Chhattisgarh,Kondagaon,"Kondagaon, Chhattisgarh",2
+Chhattisgarh,Korba,"Korba, Chhattisgarh",2
+Chhattisgarh,Koriya,"Koriya, Chhattisgarh",2
+Chhattisgarh,Mahasamund,"Mahasamund, Chhattisgarh",2
+Chhattisgarh,Mungali,"Mungali, Chhattisgarh",2
+Chhattisgarh,Narayanpur,"Narayanpur, Chhattisgarh",1
+Chhattisgarh,Raigarh,"Raigarh, Chhattisgarh",2
+Chhattisgarh,Raipur,"Raipur, Chhattisgarh",0
+Chhattisgarh,Rajnandgaon,"Rajnandgaon, Chhattisgarh",2
+Chhattisgarh,Sarguja,"Sarguja, Chhattisgarh",2
+Chhattisgarh,Sukma,"Sukma, Chhattisgarh",1
+Chhattisgarh,Surajpur,"Surajpur, Chhattisgarh",2
+Goa,North Goa,"North Goa, Goa",0
+Goa,South Goa,"South Goa, Goa",2
+Gujarat,Ahmedabad City,"Ahmedabad City, Gujarat",0
+Gujarat,Ahmedabad Rural,"Ahmedabad Rural, Gujarat",2
+Gujarat,Amreli,"Amreli, Gujarat",2
+Gujarat,Anand,"Anand, Gujarat",2
+Gujarat,Arvalli,"Arvalli, Gujarat",2
+Gujarat,Banaskantha,"Banaskantha, Gujarat",0
+Gujarat,Bharuch,"Bharuch, Gujarat",2
+Gujarat,Bhavnagar,"Bhavnagar, Gujarat",2
+Gujarat,Botad,"Botad, Gujarat",2
+Gujarat,Chhotaudepur,"Chhotaudepur, Gujarat",2
+Gujarat,Dahod,"Dahod, Gujarat",2
+Gujarat,Dang,"Dang, Gujarat",1
+Gujarat,Devbhumi Dwarka,"Devbhumi Dwarka, Gujarat",2
+Gujarat,Gandhinagar,"Gandhinagar, Gujarat",2
+Gujarat,Gir Somnath,"Gir Somnath, Gujarat",2
+Gujarat,Jamnagar,"Jamnagar, Gujarat",2
+Gujarat,Junagadh,"Junagadh, Gujarat",2
+Gujarat,Kachchh East(G),"Kachchh East(G), Gujarat",2
+Gujarat,Kachchh West(B),"Kachchh West(B), Gujarat",2
+Gujarat,Kheda,"Kheda, Gujarat",2
+Gujarat,Mahisagar,"Mahisagar, Gujarat",2
+Gujarat,Mehsana,"Mehsana, Gujarat",2
+Gujarat,Morbi,"Morbi, Gujarat",2
+Gujarat,Narmada,"Narmada, Gujarat",1
+Gujarat,Navsari,"Navsari, Gujarat",2
+Gujarat,Panchmahal,"Panchmahal, Gujarat",2
+Gujarat,Patan,"Patan, Gujarat",2
+Gujarat,Porbandar,"Porbandar, Gujarat",2
+Gujarat,Rajkot City,"Rajkot City, Gujarat",0
+Gujarat,Rajkot Rural,"Rajkot Rural, Gujarat",2
+Gujarat,Sabarkantha,"Sabarkantha, Gujarat",2
+Gujarat,Surat City,"Surat City, Gujarat",0
+Gujarat,Surat Rural,"Surat Rural, Gujarat",2
+Gujarat,Surendranagar,"Surendranagar, Gujarat",2
+Gujarat,Tapi,"Tapi, Gujarat",2
+Gujarat,Vadodara City,"Vadodara City, Gujarat",0
+Gujarat,Vadodara Rural,"Vadodara Rural, Gujarat",2
+Gujarat,Valsad,"Valsad, Gujarat",2
+Gujarat,W.Rly  Ahmedabad,"W.Rly  Ahmedabad, Gujarat",1
+Gujarat,W.Rly Vadodara,"W.Rly Vadodara, Gujarat",1
+Haryana,Ambala (Rural),"Ambala (Rural), Haryana",2
+Haryana,Ambala (Urban),"Ambala (Urban), Haryana",2
+Haryana,Bhiwani,"Bhiwani, Haryana",0
+Haryana,Faridabad,"Faridabad, Haryana",0
+Haryana,Fatehabad,"Fatehabad, Haryana",2
+Haryana,Gurgaon,"Gurgaon, Haryana",0
+Haryana,Hissar,"Hissar, Haryana",0
+Haryana,Jhajjar,"Jhajjar, Haryana",0
+Haryana,Jind,"Jind, Haryana",0
+Haryana,Kaithal,"Kaithal, Haryana",2
+Haryana,Karnal,"Karnal, Haryana",0
+Haryana,Kurukshetra,"Kurukshetra, Haryana",2
+Haryana,Mahendergarh,"Mahendergarh, Haryana",0
+Haryana,Mewat,"Mewat, Haryana",0
+Haryana,Palwal,"Palwal, Haryana",0
+Haryana,Panchkula,"Panchkula, Haryana",2
+Haryana,Panipat,"Panipat, Haryana",0
+Haryana,Rewari,"Rewari, Haryana",0
+Haryana,Rohtak,"Rohtak, Haryana",0
+Haryana,Sirsa,"Sirsa, Haryana",0
+Haryana,Sonipat,"Sonipat, Haryana",0
+Haryana,Yamunanagar,"Yamunanagar, Haryana",0
+Haryana,Irrigation & Power,"Irrigation & Power, Haryana",1
+Himachal Pradesh,Baddi,"Baddi, Himachal Pradesh",2
+Himachal Pradesh,Bilaspur,"Bilaspur, Himachal Pradesh",2
+Himachal Pradesh,Chamba,"Chamba, Himachal Pradesh",2
+Himachal Pradesh,Hamirpur,"Hamirpur, Himachal Pradesh",2
+Himachal Pradesh,Kangra,"Kangra, Himachal Pradesh",2
+Himachal Pradesh,Kinnaur,"Kinnaur, Himachal Pradesh",1
+Himachal Pradesh,Kullu,"Kullu, Himachal Pradesh",2
+Himachal Pradesh,Lahaul & Spiti,"Lahaul & Spiti, Himachal Pradesh",1
+Himachal Pradesh,Mandi,"Mandi, Himachal Pradesh",2
+Himachal Pradesh,Shimla,"Shimla, Himachal Pradesh",2
+Himachal Pradesh,Sirmaur,"Sirmaur, Himachal Pradesh",2
+Himachal Pradesh,Solan,"Solan, Himachal Pradesh",2
+Himachal Pradesh,Una,"Una, Himachal Pradesh",2
+Jammu & Kashmir,Anantnag,"Anantnag, Jammu & Kashmir",2
+Jammu & Kashmir,Awantipora,"Awantipora, Jammu & Kashmir",1
+Jammu & Kashmir,Bandipora,"Bandipora, Jammu & Kashmir",1
+Jammu & Kashmir,Baramulla,"Baramulla, Jammu & Kashmir",2
+Jammu & Kashmir,Budgam,"Budgam, Jammu & Kashmir",2
+Jammu & Kashmir,Crime Jammu,"Crime Jammu, Jammu & Kashmir",1
+Jammu & Kashmir,Crime Srinagar,"Crime Srinagar, Jammu & Kashmir",1
+Jammu & Kashmir,Doda,"Doda, Jammu & Kashmir",1
+Jammu & Kashmir,Ganderbal,"Ganderbal, Jammu & Kashmir",1
+Jammu & Kashmir,Handwara,"Handwara, Jammu & Kashmir",1
+Jammu & Kashmir,Jammu,"Jammu, Jammu & Kashmir",2
+Jammu & Kashmir,Kargil,"Kargil, Jammu & Kashmir",1
+Jammu & Kashmir,Kathua,"Kathua, Jammu & Kashmir",2
+Jammu & Kashmir,Kishtwar,"Kishtwar, Jammu & Kashmir",1
+Jammu & Kashmir,Kulgam,"Kulgam, Jammu & Kashmir",2
+Jammu & Kashmir,Kupwara,"Kupwara, Jammu & Kashmir",2
+Jammu & Kashmir,Leh,"Leh, Jammu & Kashmir",1
+Jammu & Kashmir,Poonch,"Poonch, Jammu & Kashmir",2
+Jammu & Kashmir,Pulwama,"Pulwama, Jammu & Kashmir",1
+Jammu & Kashmir,Rajouri,"Rajouri, Jammu & Kashmir",2
+Jammu & Kashmir,Ramban,"Ramban, Jammu & Kashmir",1
+Jammu & Kashmir,Reasi,"Reasi, Jammu & Kashmir",1
+Jammu & Kashmir,Samba,"Samba, Jammu & Kashmir",1
+Jammu & Kashmir,Shopian,"Shopian, Jammu & Kashmir",1
+Jammu & Kashmir,Sopore,"Sopore, Jammu & Kashmir",1
+Jammu & Kashmir,Srinagar,"Srinagar, Jammu & Kashmir",2
+Jammu & Kashmir,Udhampur,"Udhampur, Jammu & Kashmir",2
+Jharkhand,Bokaro,"Bokaro, Jharkhand",2
+Jharkhand,Chaibasa,"Chaibasa, Jharkhand",2
+Jharkhand,Chatra,"Chatra, Jharkhand",2
+Jharkhand,Deoghar,"Deoghar, Jharkhand",0
+Jharkhand,Dhanbad,"Dhanbad, Jharkhand",0
+Jharkhand,Dumka,"Dumka, Jharkhand",2
+Jharkhand,Garhwa,"Garhwa, Jharkhand",0
+Jharkhand,Giridih,"Giridih, Jharkhand",0
+Jharkhand,Godda,"Godda, Jharkhand",2
+Jharkhand,Gumla,"Gumla, Jharkhand",2
+Jharkhand,Hazaribagh,"Hazaribagh, Jharkhand",2
+Jharkhand,Jamshedpur,"Jamshedpur, Jharkhand",0
+Jharkhand,Jamtara,"Jamtara, Jharkhand",2
+Jharkhand,Khunti,"Khunti, Jharkhand",2
+Jharkhand,Koderma,"Koderma, Jharkhand",2
+Jharkhand,Latehar,"Latehar, Jharkhand",2
+Jharkhand,Lohardagga,"Lohardagga, Jharkhand",2
+Jharkhand,Pakur,"Pakur, Jharkhand",2
+Jharkhand,Palamu,"Palamu, Jharkhand",0
+Jharkhand,Ramgarh,"Ramgarh, Jharkhand",0
+Jharkhand,Ranchi,"Ranchi, Jharkhand",0
+Jharkhand,Sahebganj,"Sahebganj, Jharkhand",2
+Jharkhand,Saraikela,"Saraikela, Jharkhand",2
+Jharkhand,Simdega,"Simdega, Jharkhand",2
+Karnataka,Bagalkot,"Bagalkot, Karnataka",2
+Karnataka,Bengaluru City,"Bengaluru City, Karnataka",0
+Karnataka,Bengaluru District,"Bengaluru District, Karnataka",0
+Karnataka,Belagavi District,"Belagavi District, Karnataka",0
+Karnataka,Ballari,"Ballari, Karnataka",2
+Karnataka,Bidar,"Bidar, Karnataka",0
+Karnataka,Vijayapura,"Vijayapura, Karnataka",2
+Karnataka,Chikkaballapura,"Chikkaballapura, Karnataka",2
+Karnataka,Chamarajnagar,"Chamarajnagar, Karnataka",2
+Karnataka,Chikkamagaluru,"Chikkamagaluru, Karnataka",2
+Karnataka,Chitradurga,"Chitradurga, Karnataka",2
+Karnataka,Dakshina Kannada,"Dakshina Kannada, Karnataka",2
+Karnataka,Davanagere,"Davanagere, Karnataka",0
+Karnataka,Dharwad,"Dharwad, Karnataka",2
+Karnataka,Gadag,"Gadag, Karnataka",2
+Karnataka,Kalaburgi,"Kalaburgi, Karnataka",0
+Karnataka,Hassan,"Hassan, Karnataka",2
+Karnataka,Haveri,"Haveri, Karnataka",2
+Karnataka,Hubballi Dharwad City,"Hubballi Dharwad City, Karnataka",2
+Karnataka,K.G.F.,"K.G.F., Karnataka",2
+Karnataka,Kodagu,"Kodagu, Karnataka",2
+Karnataka,Kolar,"Kolar, Karnataka",2
+Karnataka,Koppal,"Koppal, Karnataka",2
+Karnataka,Mandya,"Mandya, Karnataka",0
+Karnataka,Mangaluru City,"Mangaluru City, Karnataka",2
+Karnataka,Mysuru City,"Mysuru City, Karnataka",2
+Karnataka,Mysuru District,"Mysuru District, Karnataka",2
+Karnataka,Raichur,"Raichur, Karnataka",2
+Karnataka,Ramanagar,"Ramanagar, Karnataka",2
+Karnataka,Shimoga,"Shimoga, Karnataka",0
+Karnataka,Tumakuru,"Tumakuru, Karnataka",0
+Karnataka,Udupi,"Udupi, Karnataka",2
+Karnataka,Uttara Kannada,"Uttara Kannada, Karnataka",2
+Karnataka,Yadgiri,"Yadgiri, Karnataka",2
+Karnataka,Belagavi City,"Belagavi City, Karnataka",2
+Kerala,Alapuzha,"Alapuzha, Kerala",0
+Kerala,Ernakulam Commr.,"Ernakulam Commr., Kerala",0
+Kerala,Ernakulam Rural,"Ernakulam Rural, Kerala",0
+Kerala,Idukki,"Idukki, Kerala",2
+Kerala,Kannur,"Kannur, Kerala",0
+Kerala,Kasargod,"Kasargod, Kerala",0
+Kerala,Kollam Commr.,"Kollam Commr., Kerala",0
+Kerala,Kollam Rural,"Kollam Rural, Kerala",0
+Kerala,Kottayam,"Kottayam, Kerala",0
+Kerala,Kozhikode Commr.,"Kozhikode Commr., Kerala",2
+Kerala,Kozhikode Rural,"Kozhikode Rural, Kerala",0
+Kerala,Malappuram,"Malappuram, Kerala",0
+Kerala,Palakkad,"Palakkad, Kerala",0
+Kerala,Pathanamthitta,"Pathanamthitta, Kerala",0
+Kerala,Thrissur Commr.,"Thrissur Commr., Kerala",0
+Kerala,Thrissur Rural,"Thrissur Rural, Kerala",0
+Kerala,Trivandrum Commr.,"Trivandrum Commr., Kerala",0
+Kerala,Trivandrum Rural,"Trivandrum Rural, Kerala",0
+Kerala,Wayanadu,"Wayanadu, Kerala",2
+Madhya Pradesh,Agar,"Agar, Madhya Pradesh",2
+Madhya Pradesh,Alirajpur,"Alirajpur, Madhya Pradesh",2
+Madhya Pradesh,Anuppur,"Anuppur, Madhya Pradesh",2
+Madhya Pradesh,Ashok Nagar,"Ashok Nagar, Madhya Pradesh",2
+Madhya Pradesh,Balaghat,"Balaghat, Madhya Pradesh",2
+Madhya Pradesh,Barwani,"Barwani, Madhya Pradesh",2
+Madhya Pradesh,Betul,"Betul, Madhya Pradesh",0
+Madhya Pradesh,Bhind,"Bhind, Madhya Pradesh",0
+Madhya Pradesh,Bhopal,"Bhopal, Madhya Pradesh",0
+Madhya Pradesh,Burhanpur,"Burhanpur, Madhya Pradesh",2
+Madhya Pradesh,Chhatarpur,"Chhatarpur, Madhya Pradesh",2
+Madhya Pradesh,Chhindwara,"Chhindwara, Madhya Pradesh",0
+Madhya Pradesh,Damoh,"Damoh, Madhya Pradesh",2
+Madhya Pradesh,Datia,"Datia, Madhya Pradesh",2
+Madhya Pradesh,Dewas,"Dewas, Madhya Pradesh",0
+Madhya Pradesh,Dhar,"Dhar, Madhya Pradesh",0
+Madhya Pradesh,Dindori,"Dindori, Madhya Pradesh",2
+Madhya Pradesh,Guna,"Guna, Madhya Pradesh",0
+Madhya Pradesh,Gwalior,"Gwalior, Madhya Pradesh",0
+Madhya Pradesh,Harda,"Harda, Madhya Pradesh",2
+Madhya Pradesh,Hoshangabad,"Hoshangabad, Madhya Pradesh",2
+Madhya Pradesh,Indore,"Indore, Madhya Pradesh",0
+Madhya Pradesh,Jabalpur,"Jabalpur, Madhya Pradesh",0
+Madhya Pradesh,Jhabua,"Jhabua, Madhya Pradesh",2
+Madhya Pradesh,Katni,"Katni, Madhya Pradesh",2
+Madhya Pradesh,Khandwa,"Khandwa, Madhya Pradesh",2
+Madhya Pradesh,Khargone,"Khargone, Madhya Pradesh",2
+Madhya Pradesh,Mandla,"Mandla, Madhya Pradesh",2
+Madhya Pradesh,Mandsaur,"Mandsaur, Madhya Pradesh",2
+Madhya Pradesh,Morena,"Morena, Madhya Pradesh",0
+Madhya Pradesh,Narsinghpur,"Narsinghpur, Madhya Pradesh",2
+Madhya Pradesh,Neemuch,"Neemuch, Madhya Pradesh",2
+Madhya Pradesh,Panna,"Panna, Madhya Pradesh",2
+Madhya Pradesh,Raisen,"Raisen, Madhya Pradesh",0
+Madhya Pradesh,Rajgarh,"Rajgarh, Madhya Pradesh",2
+Madhya Pradesh,Ratlam,"Ratlam, Madhya Pradesh",2
+Madhya Pradesh,Rewa,"Rewa, Madhya Pradesh",0
+Madhya Pradesh,Sagar,"Sagar, Madhya Pradesh",0
+Madhya Pradesh,Satna,"Satna, Madhya Pradesh",0
+Madhya Pradesh,Seoni,"Seoni, Madhya Pradesh",2
+Madhya Pradesh,Shahdol,"Shahdol, Madhya Pradesh",2
+Madhya Pradesh,Shajapur,"Shajapur, Madhya Pradesh",2
+Madhya Pradesh,Sheopur,"Sheopur, Madhya Pradesh",2
+Madhya Pradesh,Shivpuri,"Shivpuri, Madhya Pradesh",0
+Madhya Pradesh,Sidhi,"Sidhi, Madhya Pradesh",2
+Madhya Pradesh,Sehore,"Sehore, Madhya Pradesh",0
+Madhya Pradesh,Singrauli,"Singrauli, Madhya Pradesh",2
+Madhya Pradesh,Tikamgarh,"Tikamgarh, Madhya Pradesh",2
+Madhya Pradesh,Ujjain,"Ujjain, Madhya Pradesh",0
+Madhya Pradesh,Umaria,"Umaria, Madhya Pradesh",2
+Madhya Pradesh,Vidisha,"Vidisha, Madhya Pradesh",0
+Maharashtra,Ahmednagar,"Ahmednagar, Maharashtra",0
+Maharashtra,Akola,"Akola, Maharashtra",0
+Maharashtra,Amravati Commr.,"Amravati Commr., Maharashtra",0
+Maharashtra,Amravati Rural,"Amravati Rural, Maharashtra",0
+Maharashtra,Aurangabad Commr.,"Aurangabad Commr., Maharashtra",0
+Maharashtra,Aurangabad Rural,"Aurangabad Rural, Maharashtra",0
+Maharashtra,Beed,"Beed, Maharashtra",0
+Maharashtra,Bhandara,"Bhandara, Maharashtra",2
+Maharashtra,Buldhana,"Buldhana, Maharashtra",0
+Maharashtra,Chandrapur,"Chandrapur, Maharashtra",0
+Maharashtra,Dhule,"Dhule, Maharashtra",0
+Maharashtra,Gadchiroli,"Gadchiroli, Maharashtra",2
+Maharashtra,Gondia,"Gondia, Maharashtra",2
+Maharashtra,Hingoli,"Hingoli, Maharashtra",2
+Maharashtra,Jalgaon,"Jalgaon, Maharashtra",0
+Maharashtra,Jalna,"Jalna, Maharashtra",0
+Maharashtra,Kolhapur,"Kolhapur, Maharashtra",0
+Maharashtra,Latur,"Latur, Maharashtra",0
+Maharashtra,Mumbai Commr.,"Mumbai Commr., Maharashtra",0
+Maharashtra,Nagpur Commr.,"Nagpur Commr., Maharashtra",0
+Maharashtra,Nagpur Rural,"Nagpur Rural, Maharashtra",0
+Maharashtra,Nanded,"Nanded, Maharashtra",0
+Maharashtra,Nandurbar,"Nandurbar, Maharashtra",2
+Maharashtra,Nasik Commr.,"Nasik Commr., Maharashtra",0
+Maharashtra,Nasik Rural,"Nasik Rural, Maharashtra",0
+Maharashtra,Navi Mumbai,"Navi Mumbai, Maharashtra",0
+Maharashtra,Osmanabad,"Osmanabad, Maharashtra",0
+Maharashtra,Palghar,"Palghar, Maharashtra",0
+Maharashtra,Parbhani,"Parbhani, Maharashtra",0
+Maharashtra,Pune Commr.,"Pune Commr., Maharashtra",0
+Maharashtra,Pune Rural,"Pune Rural, Maharashtra",0
+Maharashtra,Raigad,"Raigad, Maharashtra",0
+Maharashtra,Ratnagiri,"Ratnagiri, Maharashtra",2
+Maharashtra,Sangli,"Sangli, Maharashtra",0
+Maharashtra,Satara,"Satara, Maharashtra",0
+Maharashtra,Sindhudurg,"Sindhudurg, Maharashtra",2
+Maharashtra,Solapur Commr.,"Solapur Commr., Maharashtra",2
+Maharashtra,Solapur Rural,"Solapur Rural, Maharashtra",0
+Maharashtra,Thane Commr.,"Thane Commr., Maharashtra",0
+Maharashtra,Thane Rural,"Thane Rural, Maharashtra",0
+Maharashtra,Wardha,"Wardha, Maharashtra",0
+Maharashtra,Washim,"Washim, Maharashtra",0
+Maharashtra,Yavatmal,"Yavatmal, Maharashtra",0
+Manipur,Bishnupur,"Bishnupur, Manipur",1
+Manipur,Chandel,"Chandel, Manipur",1
+Manipur,Churachandpur,"Churachandpur, Manipur",1
+Manipur,Imphal East,"Imphal East, Manipur",2
+Manipur,Imphal West,"Imphal West, Manipur",2
+Manipur,Senapati,"Senapati, Manipur",1
+Manipur,Tamenglong,"Tamenglong, Manipur",1
+Manipur,Thoubal,"Thoubal, Manipur",2
+Manipur,Ukhrul,"Ukhrul, Manipur",1
+Meghalaya,Garo Hills East,"Garo Hills East, Meghalaya",1
+Meghalaya,Garo Hills North,"Garo Hills North, Meghalaya",1
+Meghalaya,Garo Hills South,"Garo Hills South, Meghalaya",1
+Meghalaya,Garo Hills South West,"Garo Hills South West, Meghalaya",1
+Meghalaya,Garo Hills West,"Garo Hills West, Meghalaya",2
+Meghalaya,Jaintia Hills West,"Jaintia Hills West, Meghalaya",1
+Meghalaya,Jaintia Hills East,"Jaintia Hills East, Meghalaya",1
+Meghalaya,Khasi Hills East,"Khasi Hills East, Meghalaya",2
+Meghalaya,Khasi Hills South West,"Khasi Hills South West, Meghalaya",1
+Meghalaya,Khasi Hills West,"Khasi Hills West, Meghalaya",1
+Meghalaya,Ri-Bhoi,"Ri-Bhoi, Meghalaya",1
+Mizoram,Aizawl,"Aizawl, Mizoram",2
+Mizoram,Champhai,"Champhai, Mizoram",1
+Mizoram,Kolasib,"Kolasib, Mizoram",1
+Mizoram,Lawngtlai,"Lawngtlai, Mizoram",1
+Mizoram,Lunglei,"Lunglei, Mizoram",1
+Mizoram,Mamit,"Mamit, Mizoram",1
+Mizoram,Saiha,"Saiha, Mizoram",1
+Mizoram,Serchhip,"Serchhip, Mizoram",1
+Mizoram,Spl Traffic,"Spl Traffic, Mizoram",1
+Nagaland,Dimapur,"Dimapur, Nagaland",2
+Nagaland,Kiphire,"Kiphire, Nagaland",1
+Nagaland,Kohima,"Kohima, Nagaland",1
+Nagaland,Longleng,"Longleng, Nagaland",1
+Nagaland,Mokokchung,"Mokokchung, Nagaland",1
+Nagaland,Mon,"Mon, Nagaland",1
+Nagaland,Peren,"Peren, Nagaland",1
+Nagaland,Phek,"Phek, Nagaland",1
+Nagaland,Tuensang,"Tuensang, Nagaland",1
+Nagaland,Wokha,"Wokha, Nagaland",1
+Nagaland,Zunheboto,"Zunheboto, Nagaland",1
+Odisha,Angul,"Angul, Odisha",0
+Odisha,Balasore,"Balasore, Odisha",0
+Odisha,Baragarh,"Baragarh, Odisha",0
+Odisha,Berhampur,"Berhampur, Odisha",2
+Odisha,Bhadrak,"Bhadrak, Odisha",2
+Odisha,Bolangir,"Bolangir, Odisha",2
+Odisha,Boudh,"Boudh, Odisha",2
+Odisha,Cuttack,"Cuttack, Odisha",2
+Odisha,DCP BBSR,"DCP BBSR, Odisha",0
+Odisha,DCP CTC,"DCP CTC, Odisha",0
+Odisha,Deogarh,"Deogarh, Odisha",2
+Odisha,Dhenkanal,"Dhenkanal, Odisha",0
+Odisha,Gajapati,"Gajapati, Odisha",2
+Odisha,Ganjam,"Ganjam, Odisha",0
+Odisha,Jagatsinghpur,"Jagatsinghpur, Odisha",0
+Odisha,Jajpur,"Jajpur, Odisha",0
+Odisha,Jharsuguda,"Jharsuguda, Odisha",2
+Odisha,Kalahandi,"Kalahandi, Odisha",2
+Odisha,Kandhamal,"Kandhamal, Odisha",2
+Odisha,Kendrapara,"Kendrapara, Odisha",2
+Odisha,Keonjhar,"Keonjhar, Odisha",0
+Odisha,Khurda,"Khurda, Odisha",2
+Odisha,Koraput,"Koraput, Odisha",2
+Odisha,Malkangiri,"Malkangiri, Odisha",2
+Odisha,Mayurbhanj,"Mayurbhanj, Odisha",0
+Odisha,Nayagarh,"Nayagarh, Odisha",2
+Odisha,Nabarangpur,"Nabarangpur, Odisha",2
+Odisha,Nuapada,"Nuapada, Odisha",2
+Odisha,Puri,"Puri, Odisha",0
+Odisha,Rayagada,"Rayagada, Odisha",2
+Odisha,Rourkela,"Rourkela, Odisha",0
+Odisha,Sambalpur,"Sambalpur, Odisha",0
+Odisha,Sonepur,"Sonepur, Odisha",2
+Odisha,SRP (Cuttack),"SRP (Cuttack), Odisha",1
+Odisha,SRP (Rourkela),"SRP (Rourkela), Odisha",1
+Odisha,Sundargarh,"Sundargarh, Odisha",2
+Punjab,Amritsar Rural,"Amritsar Rural, Punjab",2
+Punjab,Barnala,"Barnala, Punjab",2
+Punjab,Batala,"Batala, Punjab",2
+Punjab,Bathinda,"Bathinda, Punjab",2
+Punjab,CP Amritsar,"CP Amritsar, Punjab",0
+Punjab,CP Jalandhar,"CP Jalandhar, Punjab",2
+Punjab,CP Ludhiana,"CP Ludhiana, Punjab",0
+Punjab,Faridkot,"Faridkot, Punjab",2
+Punjab,Fatehgarh Sahib,"Fatehgarh Sahib, Punjab",2
+Punjab,Fazilka,"Fazilka, Punjab",2
+Punjab,Ferozepur,"Ferozepur, Punjab",2
+Punjab,Gurdaspur,"Gurdaspur, Punjab",2
+Punjab,Hoshiarpur,"Hoshiarpur, Punjab",2
+Punjab,Jalandhar Rural,"Jalandhar Rural, Punjab",2
+Punjab,Kapurthala,"Kapurthala, Punjab",2
+Punjab,Khanna,"Khanna, Punjab",2
+Punjab,Ludhiana Rural,"Ludhiana Rural, Punjab",2
+Punjab,Mansa,"Mansa, Punjab",2
+Punjab,Moga,"Moga, Punjab",2
+Punjab,Muktsar,"Muktsar, Punjab",2
+Punjab,Pathankot,"Pathankot, Punjab",2
+Punjab,Patiala,"Patiala, Punjab",0
+Punjab,Ropar,"Ropar, Punjab",2
+Punjab,Sangrur,"Sangrur, Punjab",2
+Punjab,SAS Nagar,"SAS Nagar, Punjab",2
+Punjab,SBS Nagar,"SBS Nagar, Punjab",2
+Punjab,Tarn Taran,"Tarn Taran, Punjab",2
+Rajasthan,Ajmer,"Ajmer, Rajasthan",0
+Rajasthan,Alwar,"Alwar, Rajasthan",0
+Rajasthan,Banswara,"Banswara, Rajasthan",2
+Rajasthan,Baran,"Baran, Rajasthan",0
+Rajasthan,Barmer,"Barmer, Rajasthan",0
+Rajasthan,Bharatpur,"Bharatpur, Rajasthan",0
+Rajasthan,Bhilwara,"Bhilwara, Rajasthan",0
+Rajasthan,Bikaner,"Bikaner, Rajasthan",2
+Rajasthan,Bundi,"Bundi, Rajasthan",2
+Rajasthan,Chittorgarh,"Chittorgarh, Rajasthan",0
+Rajasthan,Churu,"Churu, Rajasthan",2
+Rajasthan,Dausa,"Dausa, Rajasthan",2
+Rajasthan,Dholpur,"Dholpur, Rajasthan",0
+Rajasthan,Dungarpur,"Dungarpur, Rajasthan",2
+Rajasthan,G.R.P.Ajmer,"G.R.P.Ajmer, Rajasthan",1
+Rajasthan,G.R.P.Jodhpur,"G.R.P.Jodhpur, Rajasthan",1
+Rajasthan,Ganganagar,"Ganganagar, Rajasthan",0
+Rajasthan,Hanumangarh,"Hanumangarh, Rajasthan",0
+Rajasthan,Jaipur East,"Jaipur East, Rajasthan",0
+Rajasthan,Jaipur North,"Jaipur North, Rajasthan",2
+Rajasthan,Jaipur Rural,"Jaipur Rural, Rajasthan",0
+Rajasthan,Jaipur South,"Jaipur South, Rajasthan",0
+Rajasthan,Jaipur West,"Jaipur West, Rajasthan",0
+Rajasthan,Jaisalmer,"Jaisalmer, Rajasthan",2
+Rajasthan,Jalore,"Jalore, Rajasthan",2
+Rajasthan,Jhalawar,"Jhalawar, Rajasthan",0
+Rajasthan,Jhunjhunu,"Jhunjhunu, Rajasthan",2
+Rajasthan,Jodhpur East,"Jodhpur East, Rajasthan",2
+Rajasthan,Jodhpur West,"Jodhpur West, Rajasthan",2
+Rajasthan,Jodhpur Rural,"Jodhpur Rural, Rajasthan",2
+Rajasthan,Karauli,"Karauli, Rajasthan",2
+Rajasthan,Kota City,"Kota City, Rajasthan",0
+Rajasthan,Kota Rural,"Kota Rural, Rajasthan",2
+Rajasthan,Nagaur,"Nagaur, Rajasthan",2
+Rajasthan,Pali,"Pali, Rajasthan",0
+Rajasthan,Praapgarh,"Praapgarh, Rajasthan",0
+Rajasthan,Rajsamand,"Rajsamand, Rajasthan",2
+Rajasthan,Sawai Madhopur,"Sawai Madhopur, Rajasthan",2
+Rajasthan,Sikar,"Sikar, Rajasthan",2
+Rajasthan,Sirohi,"Sirohi, Rajasthan",2
+Rajasthan,Tonk,"Tonk, Rajasthan",2
+Rajasthan,Udaipur,"Udaipur, Rajasthan",0
+Sikkim,East,"East, Sikkim",2
+Sikkim,North,"North, Sikkim",1
+Sikkim,South,"South, Sikkim",1
+Sikkim,West,"West, Sikkim",1
+Sikkim,CID,"CID, Sikkim",1
+Tamil Nadu,Ariyalur,"Ariyalur, Tamil Nadu",2
+Tamil Nadu,Chennai,"Chennai, Tamil Nadu",0
+Tamil Nadu,Coimbatore,"Coimbatore, Tamil Nadu",2
+Tamil Nadu,Coimbatore City,"Coimbatore City, Tamil Nadu",2
+Tamil Nadu,Cuddalore,"Cuddalore, Tamil Nadu",2
+Tamil Nadu,Dharmapuri,"Dharmapuri, Tamil Nadu",2
+Tamil Nadu,Dindigul,"Dindigul, Tamil Nadu",2
+Tamil Nadu,Erode,"Erode, Tamil Nadu",2
+Tamil Nadu,Kanchipuram,"Kanchipuram, Tamil Nadu",2
+Tamil Nadu,Kanyakumari,"Kanyakumari, Tamil Nadu",2
+Tamil Nadu,Karur,"Karur, Tamil Nadu",2
+Tamil Nadu,Krishnagiri,"Krishnagiri, Tamil Nadu",2
+Tamil Nadu,Madurai,"Madurai, Tamil Nadu",0
+Tamil Nadu,Madurai City,"Madurai City, Tamil Nadu",2
+Tamil Nadu,Nagapattinam,"Nagapattinam, Tamil Nadu",2
+Tamil Nadu,Namakkal,"Namakkal, Tamil Nadu",2
+Tamil Nadu,Nilgiris,"Nilgiris, Tamil Nadu",2
+Tamil Nadu,Perambalur,"Perambalur, Tamil Nadu",2
+Tamil Nadu,Pudukottai,"Pudukottai, Tamil Nadu",2
+Tamil Nadu,Ramnathapuram,"Ramnathapuram, Tamil Nadu",2
+Tamil Nadu,Salem,"Salem, Tamil Nadu",2
+Tamil Nadu,Salem City,"Salem City, Tamil Nadu",2
+Tamil Nadu,Sivagangai,"Sivagangai, Tamil Nadu",2
+Tamil Nadu,Thanjavur,"Thanjavur, Tamil Nadu",2
+Tamil Nadu,Theni,"Theni, Tamil Nadu",2
+Tamil Nadu,Thirunelveli,"Thirunelveli, Tamil Nadu",0
+Tamil Nadu,Thirunelveli City,"Thirunelveli City, Tamil Nadu",2
+Tamil Nadu,Thiruvallur,"Thiruvallur, Tamil Nadu",2
+Tamil Nadu,Thiruvannamalai,"Thiruvannamalai, Tamil Nadu",2
+Tamil Nadu,Thiruvarur,"Thiruvarur, Tamil Nadu",2
+Tamil Nadu,Thoothugudi,"Thoothugudi, Tamil Nadu",2
+Tamil Nadu,Tiruppur,"Tiruppur, Tamil Nadu",2
+Tamil Nadu,Tiruppur City,"Tiruppur City, Tamil Nadu",2
+Tamil Nadu,Trichy,"Trichy, Tamil Nadu",2
+Tamil Nadu,Trichy City,"Trichy City, Tamil Nadu",2
+Tamil Nadu,Vellore,"Vellore, Tamil Nadu",2
+Tamil Nadu,Villupuram,"Villupuram, Tamil Nadu",0
+Tamil Nadu,Virudhunagar,"Virudhunagar, Tamil Nadu",2
+Tamil Nadu,Other Units,"Other Units, Tamil Nadu",1
+Telangana,Adilabad,"Adilabad, Telangana",0
+Telangana,Cyberabad,"Cyberabad, Telangana",0
+Telangana,Hyderabad City,"Hyderabad City, Telangana",0
+Telangana,Karimnagar,"Karimnagar, Telangana",0
+Telangana,Khammam,"Khammam, Telangana",0
+Telangana,Mahaboob Nagar,"Mahaboob Nagar, Telangana",0
+Telangana,Medak,"Medak, Telangana",0
+Telangana,Nalgonda,"Nalgonda, Telangana",0
+Telangana,Nizamabad,"Nizamabad, Telangana",0
+Telangana,Ranga Reddy,"Ranga Reddy, Telangana",2
+Telangana,Warangal,"Warangal, Telangana",0
+Telangana,Warangal Urban,"Warangal Urban, Telangana",2
+Tripura,Dhalai,"Dhalai, Tripura",2
+Tripura,Gomati,"Gomati, Tripura",2
+Tripura,Kowai,"Kowai, Tripura",1
+Tripura,North,"North, Tripura",2
+Tripura,Sipahijala,"Sipahijala, Tripura",2
+Tripura,South,"South, Tripura",2
+Tripura,Unakoti,"Unakoti, Tripura",2
+Tripura,West,"West, Tripura",2
+Uttar Pradesh,Agra,"Agra, Uttar Pradesh",0
+Uttar Pradesh,Aligarh,"Aligarh, Uttar Pradesh",0
+Uttar Pradesh,Allahabad,"Allahabad, Uttar Pradesh",0
+Uttar Pradesh,Ambedkar Nagar,"Ambedkar Nagar, Uttar Pradesh",2
+Uttar Pradesh,Amethi,"Amethi, Uttar Pradesh",2
+Uttar Pradesh,Amroha,"Amroha, Uttar Pradesh",0
+Uttar Pradesh,Auraiya,"Auraiya, Uttar Pradesh",2
+Uttar Pradesh,Azamgarh,"Azamgarh, Uttar Pradesh",0
+Uttar Pradesh,Badaun,"Badaun, Uttar Pradesh",0
+Uttar Pradesh,Baghpat,"Baghpat, Uttar Pradesh",2
+Uttar Pradesh,Bahraich,"Bahraich, Uttar Pradesh",2
+Uttar Pradesh,Ballia,"Ballia, Uttar Pradesh",0
+Uttar Pradesh,Balrampur,"Balrampur, Uttar Pradesh",2
+Uttar Pradesh,Banda,"Banda, Uttar Pradesh",2
+Uttar Pradesh,Barabanki,"Barabanki, Uttar Pradesh",2
+Uttar Pradesh,Bareilly,"Bareilly, Uttar Pradesh",0
+Uttar Pradesh,Basti,"Basti, Uttar Pradesh",2
+Uttar Pradesh,Bijnor,"Bijnor, Uttar Pradesh",0
+Uttar Pradesh,Bulandshahar,"Bulandshahar, Uttar Pradesh",0
+Uttar Pradesh,Chandoli,"Chandoli, Uttar Pradesh",0
+Uttar Pradesh,Chitrakoot,"Chitrakoot, Uttar Pradesh",2
+Uttar Pradesh,Deoria,"Deoria, Uttar Pradesh",0
+Uttar Pradesh,Etah,"Etah, Uttar Pradesh",0
+Uttar Pradesh,Etawah,"Etawah, Uttar Pradesh",0
+Uttar Pradesh,Faizabad,"Faizabad, Uttar Pradesh",2
+Uttar Pradesh,Fatehgarh,"Fatehgarh, Uttar Pradesh",2
+Uttar Pradesh,Fatehpur,"Fatehpur, Uttar Pradesh",0
+Uttar Pradesh,Firozabad,"Firozabad, Uttar Pradesh",0
+Uttar Pradesh,Gautambudh Nagar,"Gautambudh Nagar, Uttar Pradesh",0
+Uttar Pradesh,Ghaziabad,"Ghaziabad, Uttar Pradesh",0
+Uttar Pradesh,Ghazipur,"Ghazipur, Uttar Pradesh",2
+Uttar Pradesh,Gonda,"Gonda, Uttar Pradesh",2
+Uttar Pradesh,Gorakhpur,"Gorakhpur, Uttar Pradesh",0
+Uttar Pradesh,Hamirpur,"Hamirpur, Uttar Pradesh",2
+Uttar Pradesh,Hapur,"Hapur, Uttar Pradesh",0
+Uttar Pradesh,Hardoi,"Hardoi, Uttar Pradesh",0
+Uttar Pradesh,Hathras,"Hathras, Uttar Pradesh",0
+Uttar Pradesh,Jalaun,"Jalaun, Uttar Pradesh",2
+Uttar Pradesh,Jaunpur,"Jaunpur, Uttar Pradesh",0
+Uttar Pradesh,Jhansi,"Jhansi, Uttar Pradesh",0
+Uttar Pradesh,Kannauj,"Kannauj, Uttar Pradesh",2
+Uttar Pradesh,Kanpur Dehat,"Kanpur Dehat, Uttar Pradesh",2
+Uttar Pradesh,Kanpur Nagar,"Kanpur Nagar, Uttar Pradesh",0
+Uttar Pradesh,Kasganj,"Kasganj, Uttar Pradesh",2
+Uttar Pradesh,Kaushambi,"Kaushambi, Uttar Pradesh",2
+Uttar Pradesh,Khiri,"Khiri, Uttar Pradesh",0
+Uttar Pradesh,Kushi Nagar,"Kushi Nagar, Uttar Pradesh",2
+Uttar Pradesh,Lalitpur,"Lalitpur, Uttar Pradesh",2
+Uttar Pradesh,Lucknow,"Lucknow, Uttar Pradesh",0
+Uttar Pradesh,Maharajganj,"Maharajganj, Uttar Pradesh",2
+Uttar Pradesh,Mahoba,"Mahoba, Uttar Pradesh",2
+Uttar Pradesh,Mainpuri,"Mainpuri, Uttar Pradesh",2
+Uttar Pradesh,Mathura,"Mathura, Uttar Pradesh",0
+Uttar Pradesh,Mau,"Mau, Uttar Pradesh",2
+Uttar Pradesh,Meerut,"Meerut, Uttar Pradesh",0
+Uttar Pradesh,Mirzapur,"Mirzapur, Uttar Pradesh",2
+Uttar Pradesh,Moradabad,"Moradabad, Uttar Pradesh",0
+Uttar Pradesh,Muzaffarnagar,"Muzaffarnagar, Uttar Pradesh",0
+Uttar Pradesh,Pilibhit,"Pilibhit, Uttar Pradesh",0
+Uttar Pradesh,Pratapgarh,"Pratapgarh, Uttar Pradesh",0
+Uttar Pradesh,Raibareilly,"Raibareilly, Uttar Pradesh",2
+Uttar Pradesh,Rampur,"Rampur, Uttar Pradesh",2
+Uttar Pradesh,Saharanpur,"Saharanpur, Uttar Pradesh",0
+Uttar Pradesh,Sambhal,"Sambhal, Uttar Pradesh",0
+Uttar Pradesh,Sant Kabirnagar,"Sant Kabirnagar, Uttar Pradesh",2
+Uttar Pradesh,Shahjahanpur,"Shahjahanpur, Uttar Pradesh",0
+Uttar Pradesh,Shamli,"Shamli, Uttar Pradesh",0
+Uttar Pradesh,Shrawasti,"Shrawasti, Uttar Pradesh",2
+Uttar Pradesh,Sidharthnagar,"Sidharthnagar, Uttar Pradesh",2
+Uttar Pradesh,Sitapur,"Sitapur, Uttar Pradesh",0
+Uttar Pradesh,Sonbhadra,"Sonbhadra, Uttar Pradesh",2
+Uttar Pradesh,St.Ravidasnagar,"St.Ravidasnagar, Uttar Pradesh",2
+Uttar Pradesh,Sultanpur,"Sultanpur, Uttar Pradesh",0
+Uttar Pradesh,Unnao,"Unnao, Uttar Pradesh",0
+Uttar Pradesh,Varanasi,"Varanasi, Uttar Pradesh",0
+Uttarakhand,Almora,"Almora, Uttarakhand",1
+Uttarakhand,Bageshwar,"Bageshwar, Uttarakhand",1
+Uttarakhand,Chamoli,"Chamoli, Uttarakhand",1
+Uttarakhand,Champawat,"Champawat, Uttarakhand",1
+Uttarakhand,Dehradun,"Dehradun, Uttarakhand",0
+Uttarakhand,Haridwar,"Haridwar, Uttarakhand",0
+Uttarakhand,Nainital,"Nainital, Uttarakhand",2
+Uttarakhand,Pauri Garhwal,"Pauri Garhwal, Uttarakhand",1
+Uttarakhand,Pithoragarh,"Pithoragarh, Uttarakhand",1
+Uttarakhand,Rudra Prayag,"Rudra Prayag, Uttarakhand",1
+Uttarakhand,Tehri Garhwal,"Tehri Garhwal, Uttarakhand",1
+Uttarakhand,Udhamsingh Nagar,"Udhamsingh Nagar, Uttarakhand",2
+Uttarakhand,Uttarkashi,"Uttarkashi, Uttarakhand",1
+West Bengal,North 24 Parganas,"North 24 Parganas, West Bengal",0
+West Bengal,South 24 Parganas,"South 24 Parganas, West Bengal",0
+West Bengal,Alipurduar,"Alipurduar, West Bengal",0
+West Bengal,Asansol-Durgapur PC,"Asansol-Durgapur PC, West Bengal",0
+West Bengal,Bankura,"Bankura, West Bengal",0
+West Bengal,Barrackpur PC,"Barrackpur PC, West Bengal",0
+West Bengal,Bidhannagar PC,"Bidhannagar PC, West Bengal",0
+West Bengal,Birbhum,"Birbhum, West Bengal",0
+West Bengal,Burdwan,"Burdwan, West Bengal",0
+West Bengal,Coochbehar,"Coochbehar, West Bengal",0
+West Bengal,Dakshin Dinajpur,"Dakshin Dinajpur, West Bengal",0
+West Bengal,Darjeeling,"Darjeeling, West Bengal",0
+West Bengal,Hooghly,"Hooghly, West Bengal",0
+West Bengal,Howrah PC,"Howrah PC, West Bengal",0
+West Bengal,Howrah Rural,"Howrah Rural, West Bengal",1
+West Bengal,Jalpaiguri,"Jalpaiguri, West Bengal",0
+West Bengal,Jhargram Police District,"Jhargram Police District, West Bengal",2
+West Bengal,Kolkata,"Kolkata, West Bengal",0
+West Bengal,Malda,"Malda, West Bengal",0
+West Bengal,Murshidabad,"Murshidabad, West Bengal",0
+West Bengal,Nadia,"Nadia, West Bengal",0
+West Bengal,Paschim Medinipur,"Paschim Medinipur, West Bengal",0
+West Bengal,Purab Medinipur,"Purab Medinipur, West Bengal",0
+West Bengal,Purulia,"Purulia, West Bengal",0
+West Bengal,Siliguri PC,"Siliguri PC, West Bengal",0
+West Bengal,Uttar Dinajpur,"Uttar Dinajpur, West Bengal",0
+A&N Islands,South Andaman,"South Andaman, A&N Islands",2
+A&N Islands,North & Middle Andaman,"North & Middle Andaman, A&N Islands",1
+A&N Islands,Nicobar,"Nicobar, A&N Islands",1
+Chandigarh,Chandigarh,"Chandigarh, Chandigarh",0
+D&N Haveli,D&N Haveli,"D&N Haveli, D&N Haveli",1
+Daman & Diu,Daman,"Daman, Daman & Diu",1
+Daman & Diu,Diu,"Diu, Daman & Diu",1
+Delhi UT,Central,"Central, Delhi UT",0
+Delhi UT,East,"East, Delhi UT",0
+Delhi UT,EOW,"EOW, Delhi UT",1
+Delhi UT,IGI Airport,"IGI Airport, Delhi UT",1
+Delhi UT,Metro,"Metro, Delhi UT",1
+Delhi UT,New Delhi,"New Delhi, Delhi UT",2
+Delhi UT,North,"North, Delhi UT",0
+Delhi UT,North-East,"North-East, Delhi UT",0
+Delhi UT,North-West,"North-West, Delhi UT",0
+Delhi UT,Outer,"Outer, Delhi UT",0
+Delhi UT,South,"South, Delhi UT",0
+Delhi UT,South-East,"South-East, Delhi UT",0
+Delhi UT,South-West,"South-West, Delhi UT",0
+Delhi UT,Spl Cell,"Spl Cell, Delhi UT",1
+Delhi UT,SPUWAC,"SPUWAC, Delhi UT",1
+Delhi UT,Vigilance,"Vigilance, Delhi UT",1
+Delhi UT,West,"West, Delhi UT",0
+Lakshadweep,Lakshadweep,"Lakshadweep, Lakshadweep",1
+Puducherry,Karaikal,"Karaikal, Puducherry",1
+Puducherry,Puducherry,"Puducherry, Puducherry",2
