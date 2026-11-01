@@ -7,3 +7,4 @@ scikit-learn==1.5.2
 statsmodels==0.14.4
 gunicorn
 whitenoise
+django-widget-tweaks
