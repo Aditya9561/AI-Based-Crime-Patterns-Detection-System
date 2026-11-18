@@ -83,3 +83,8 @@ class TourPlannerForm(forms.ModelForm):
     class Meta:
         model=TourPlanner
         fields ='__all__'
+
+class AssignDutiesForm(forms.ModelForm):
+    class Meta:
+        model = assignduties
+        fields = ['user', 'post', 'duty', 'date']

@@ -62,6 +62,10 @@
 </head>
 <body>
   <div class="container">
+    <a href="{% url 'fir' %}" style="display:inline-block; padding:10px 16px; background:#0f0453; color:white; text-decoration:none; border-radius:6px; margin-bottom:15px;">
+        ← Back to FIR Menu
+    </a>
+
     <h1>Upload and View PDF</h1>
     <form method="POST" enctype="multipart/form-data">
       {% csrf_token %}

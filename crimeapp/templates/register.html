@@ -1,145 +1,265 @@
-{% load static %}
+﻿{% load static %}
+{% load widget_tweaks %}
 <!DOCTYPE html>
-<html>
-    {% load widget_tweaks %}
-  <head>
-    <title>Registration Form</title>
-	  <link rel="stylesheet" href="styles.css" />
-      <style>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration | Crime Pattern Detection System</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
         body {
-  width: 100%;
-  height: 100vh;
-  margin: 0;
-  background-color: #1b1b32;
-	color: #f5f6f7;
-  font-family: Tahoma;
-	font-size: 16px;
-}
+            margin: 0;
+            min-height: 100vh;
+            font-family: "Segoe UI", Arial, sans-serif;
+            background: #f1f5f9;
+            color: #243447;
+        }
 
-h1, p {
-  margin: 1em auto;
-  text-align: center;
-}
+        .topbar {
+            background: #102a43;
+            color: white;
+            padding: 20px 7%;
+            border-bottom: 4px solid #d6a84f;
+        }
 
-form {
-  width: 60vw;
-	max-width: 500px;
-	min-width: 300px;
-	margin: 0 auto;
-  padding-bottom: 2em;
-}
+        .topbar h1 {
+            margin: 0;
+            font-size: 22px;
+            font-weight: 600;
+        }
 
-fieldset {
-  border: none;
-	padding: 2rem 0;
-}
+        .topbar p {
+            margin: 5px 0 0;
+            color: #d9e2ec;
+            font-size: 13px;
+        }
 
-fieldset:not(:last-of-type) {
-  border-bottom: 3px solid #3b3b4f;
-}
+        .container {
+            width: 92%;
+            max-width: 850px;
+            margin: 35px auto;
+        }
 
-label {
-  display: block;
-	margin: 0.5rem 0;
-}
+        .panel {
+            background: white;
+            padding: 30px;
+            border: 1px solid #d9e2ec;
+            border-radius: 9px;
+            box-shadow: 0 4px 15px rgba(16, 42, 67, 0.06);
+            margin-bottom: 22px;
+        }
 
-input,
-textarea,
-select {
-  margin: 10px 0 0 0;
-	width: 100%;
-  min-height: 2em;
-}
+        h2 {
+            margin: 0 0 8px;
+            color: #102a43;
+            font-size: 23px;
+        }
 
-input, textarea {
-  background-color: #0a0a23;
-  border: 1px solid #0a0a23;
-  color: #ffffff;
-}
+        .subtitle {
+            color: #627d98;
+            font-size: 14px;
+            margin-bottom: 24px;
+        }
 
-.inline {
-  width: unset;
-  margin: 0 0.5em 0 0;
-  vertical-align: middle;
-}
+        .role-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(145px, 1fr));
+            gap: 12px;
+        }
 
-input[type="submit"] {
-  display: block;
-  width: 60%;
-  margin: 1em auto;
-  height: 2em;
-  font-size: 1.1rem;
-  background-color: #3b3b4f;
-  border-color: white;
-  min-width: 300px;
-}
+        .role-link {
+            display: block;
+            padding: 15px 10px;
+            text-align: center;
+            text-decoration: none;
+            background: #f1f5f9;
+            color: #102a43;
+            border: 1px solid #bcccdc;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: 0.2s;
+        }
 
-input[type="file"] {
-  padding: 1px 2px;
-}
+        .role-link:hover {
+            background: #102a43;
+            color: white;
+        }
 
-a {
-  color: #dfdfe2;
-}
+        .field {
+            margin-bottom: 17px;
+        }
 
-      </style>
-  </head>
-  <body>
-    <h1>Registration Form</h1>
-    <p>Please fill out this form with the required information</p>
-    <form action="" method="POST">
-      {% csrf_token %}
-      <fieldset>
-        <label>Enter Your First Name: </label>
-        {% render_field form.first_name class="form-control" placeholder="Your First Name" pattern="[A-Za-z]{2,}" %}
+        label {
+            display: block;
+            margin-bottom: 7px;
+            color: #334e68;
+            font-weight: 600;
+            font-size: 14px;
+        }
 
-        <label>Enter Your Last Name:</label>
-        {% render_field form.last_name class="form-control" placeholder="Your Last Name" pattern="[A-Za-z]{2,}" %}
+        input, select, textarea {
+            width: 100%;
+            padding: 11px 12px;
+            border: 1px solid #bcccdc;
+            border-radius: 5px;
+            background: white;
+            font: inherit;
+            color: #243447;
+        }
 
-        <label>Enter Your Email:</label>
-        {% render_field form.email class="form-control" placeholder="Your Email" %}
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #2471a3;
+            box-shadow: 0 0 0 2px rgba(36, 113, 163, 0.12);
+        }
 
-       <label>Enter Your username: </label>
-       {% render_field form.username class="form-control" placeholder="Username" %}
+        .submit-btn {
+            width: 100%;
+            padding: 13px;
+            margin-top: 10px;
+            background: #102a43;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+            font-weight: 600;
+            cursor: pointer;
+        }
 
-       <label>Create a New Password:</label>
-       {% render_field form.password class="form-control" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" %}
+        .submit-btn:hover {
+            background: #243f5b;
+        }
 
-       <label>Enter Your MobileNumber:</label>
-       {% render_field form2.mob class="form-control" placeholder="Your Number" pattern="[789][0-9]{9}" %}
+        .error {
+            color: #b42318;
+            font-size: 13px;
+            margin-top: 5px;
+        }
 
-       <label>Enter Your Address:</label>
-       {% render_field form2.address class="form-control" placeholder="Your Address" %}
+        .message {
+            padding: 12px 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            background: #e8f5e9;
+            color: #216e39;
+        }
 
-       <label>Enter Your Post:</label>
-       {% render_field form2.post class="form-control" placeholder="Your Address" %}
-      </fieldset>
-      <!-- <fieldset>
-        <label><input type="radio" name="account-type" class="inline" /> Personal Account</label>
-        <label><input type="radio" name="account-type" class="inline" /> Business Account</label>
-        <label>
-          <input type="checkbox" name="terms" class="inline" required /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
-			  </label>
-      </fieldset> -->
-      <!-- <fieldset>
-        <label>Upload a profile picture: <input type="file" name="file" /></label>
-        <label>Input your age (years): <input type="number" name="age" min="13" max="120" />
-			  </label>
-        <label>How did you hear about us?
-          <select name="referrer">
-            <option value="">(select one)</option>
-            <option value="1">freeCodeCamp News</option>
-            <option value="2">freeCodeCamp YouTube Channel</option>
-            <option value="3">freeCodeCamp Forum</option>
-            <option value="4">Other</option>
-          </select>
-        </label> -->
-        <!-- <label>Provide a bio:
-          <textarea name="bio" rows="3" cols="30" placeholder="I like coding on the beach..."></textarea>
-			  </label>
-      </fieldset> -->
-      <input type="submit" value="Submit" />
-    </form>
-  </body>
+        .navigation {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .navigation a {
+            color: #245b85;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .footer {
+            text-align: center;
+            color: #829ab1;
+            font-size: 12px;
+            padding: 20px;
+        }
+
+        @media (max-width: 600px) {
+            .panel {
+                padding: 20px;
+            }
+
+            .topbar {
+                padding: 18px 5%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header class="topbar">
+    <h1>Crime Pattern Detection System</h1>
+    <p>Official Registration Portal</p>
+</header>
+
+<main class="container">
+
+    {% if messages %}
+        {% for message in messages %}
+            <div class="message">{{ message }}</div>
+        {% endfor %}
+    {% endif %}
+
+    {% if user.is_authenticated and user.is_staff %}
+    <section class="panel">
+        <h2>Account Management</h2>
+        <p class="subtitle">Select the account type you want to register.</p>
+
+        <div class="role-grid">
+            <a class="role-link" href="{% url 'register' %}">Normal User</a>
+            <a class="role-link" href="{% url 'registerip' %}">Police Inspector (IP)</a>
+            <a class="role-link" href="{% url 'registersp' %}">Superintendent (SP)</a>
+            <a class="role-link" href="{% url 'registerdgp' %}">Director General (DGP)</a>
+        </div>
+    </section>
+    {% endif %}
+
+    <section class="panel">
+        <h2>Normal User Registration</h2>
+        <p class="subtitle">Enter your personal and contact information to create an account.</p>
+
+        <form method="POST">
+            {% csrf_token %}
+
+            {% for field in form %}
+                <div class="field">
+                    <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                    {{ field }}
+                    {% for error in field.errors %}
+                        <div class="error">{{ error }}</div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+
+            {% for error in form.non_field_errors %}
+                <div class="error">{{ error }}</div>
+            {% endfor %}
+
+            {% for field in form2 %}
+                <div class="field">
+                    <label for="{{ field.id_for_label }}">{{ field.label }}</label>
+                    {{ field }}
+                    {% for error in field.errors %}
+                        <div class="error">{{ error }}</div>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+
+            {% for error in form2.non_field_errors %}
+                <div class="error">{{ error }}</div>
+            {% endfor %}
+
+            <button type="submit" class="submit-btn">Create Account</button>
+        </form>
+
+        <div class="navigation">
+            Already registered? <a href="{% url 'login' %}">Login here</a>
+        </div>
+    </section>
+
+    <div class="navigation">
+        <a href="{% url 'index' %}">← Back to Home</a>
+    </div>
+
+</main>
+
+<footer class="footer">
+    Crime Pattern Detection System
+</footer>
+
+</body>
 </html>
-

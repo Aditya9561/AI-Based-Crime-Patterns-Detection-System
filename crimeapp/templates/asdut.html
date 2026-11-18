@@ -1,0 +1,157 @@
+
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assign Duties</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: 'Open Sans', Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            padding: 30px;
+            background: #d3d8ef;
+        }
+
+        .container {
+            max-width: 950px;
+            margin: 20px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        .back-btn {
+            display: inline-block;
+            padding: 10px 18px;
+            background: #35383a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .back-btn:hover {
+            background: #555;
+        }
+
+        form p {
+            margin-bottom: 18px;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background: #35383a;
+            color: white;
+            border: none;
+            padding: 12px 22px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #555;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 25px;
+            background: white;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background: #35383a;
+            color: white;
+        }
+
+        .message {
+            color: green;
+            margin: 15px 0;
+        }
+
+        .errorlist {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <a href="{% url 'homedgp' %}" class="back-btn">
+        ← Back to DGP Dashboard
+    </a>
+
+    <h2>Assign Duties to Police Officers</h2>
+
+    {% if messages %}
+        {% for message in messages %}
+            <p class="message">{{ message }}</p>
+        {% endfor %}
+    {% endif %}
+
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Assign Duty</button>
+    </form>
+
+    <h2>Previously Assigned Duties</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Officer</th>
+                <th>Post</th>
+                <th>Duty</th>
+                <th>Date</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for item in ad %}
+            <tr>
+                <td>{{ item.user.username|default:"Not assigned" }}</td>
+                <td>{{ item.post }}</td>
+                <td>{{ item.duty }}</td>
+                <td>{{ item.date }}</td>
+            </tr>
+            {% empty %}
+            <tr>
+                <td colspan="4">No duties assigned yet.</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>

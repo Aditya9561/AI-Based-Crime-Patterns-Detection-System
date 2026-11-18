@@ -1,25 +1,121 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
-    <title>Map</title>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHyitB0Fgkpy413fHNhFnDNCVGfGqbT3A"></script>
-    <script>
-        function initMap() {
-            var map = new google.maps.Map(document.getElementById('map'), {
-                center: {lat: 0, lng: 0},
-                zoom: 2
-            });
+    <title>Crime Hotspot Map</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-            {% for coordinate in coordinates %}
-            var marker{{ forloop.counter }} = new google.maps.Marker({
-                position: {lat: {{ coordinate.lat }}, lng: {{ coordinate.lng }}},
-                map: map
-            });
-            {% endfor %}
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
         }
-    </script>
+
+        h2 { color: #0f0453; }
+
+        .back-btn {
+            display: inline-block;
+            padding: 10px 16px;
+            background: #0f0453;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+
+        #map {
+            height: 550px;
+            width: 100%;
+            border: 2px solid #0f0453;
+            border-radius: 8px;
+            z-index: 1;
+        }
+
+        .map-note {
+            color: #555;
+            margin-top: 12px;
+        }
+    </style>
 </head>
-<body onload="initMap()">
-    <div id="map" style="height: 500px; width: 100%;"></div>
+
+<body>
+
+<a href="{% url 'afterlogin' %}" class="back-btn">Back to Dashboard</a>
+
+<h2>AI-Based Crime Hotspot Map</h2>
+
+<div id="map"></div>
+<p class="map-note" id="map-note">Loading map...</p>
+
+{{ coordinates|json_script:"hotspot-data" }}
+
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script>
+    const points = JSON.parse(
+        document.getElementById('hotspot-data').textContent
+    );
+
+    const note = document.getElementById('map-note');
+
+    if (typeof L === 'undefined') {
+        note.textContent = 'Map library could not load. Check your internet connection.';
+    } else {
+        const map = L.map('map');
+
+        const tileLayer = L.tileLayer(
+            'https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
+            {
+                maxZoom: 19,
+                attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+            }
+        ).addTo(map);
+
+        let tileError = false;
+
+        tileLayer.on('tileerror', function () {
+            tileError = true;
+            note.textContent =
+                'Map imagery is blocked or unavailable on this network. Try another network.';
+        });
+
+        const bounds = [];
+
+        points.forEach(function (point) {
+            const lat = Number(point.lat);
+            const lng = Number(point.lng);
+
+            if (
+                Number.isFinite(lat) &&
+                Number.isFinite(lng) &&
+                lat >= -90 && lat <= 90 &&
+                lng >= -180 && lng <= 180
+            ) {
+                const marker = L.marker([lat, lng]).addTo(map);
+
+                marker.bindPopup(
+                    '<b>Recorded Crime Location</b><br>' +
+                    (point.address || 'Location')
+                );
+
+                bounds.push([lat, lng]);
+            }
+        });
+
+        if (bounds.length > 0) {
+            map.fitBounds(bounds, { padding: [35, 35] });
+            note.textContent =
+                'Showing ' + bounds.length + ' recorded locations.';
+        } else {
+            map.setView([20.5937, 78.9629], 5);
+            note.textContent = 'No valid hotspot coordinates found.';
+        }
+    }
+</script>
+
 </body>
 </html>

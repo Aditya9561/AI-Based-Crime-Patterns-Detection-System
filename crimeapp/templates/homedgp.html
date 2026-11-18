@@ -379,7 +379,7 @@ footer{
                 <img src="{% static 'assets/img/testimonials/Jane.jpg' %}" class="profile-image" alt="">
                 <h3>{{request.user.first_name}}</h3>
                 <p>{{a.post}}</p>
-                <div ><a href="/profileip" class="icone"><i class="fas fa-pen"></i></a></div>
+                <div><a href="{% url 'profiledgp' %}" class="icone"><i class="fas fa-pen"></i></a></div>
             </div>
             <ul>
                 <li >
@@ -407,11 +407,17 @@ footer{
                     </a>
                 </li>
                 <li>
-                    <a href="#">
-                        <span class="icon"><i class="fas fa-book"></i></span>
-                        <span class="item">Assign Duties</span>
-                    </a>
+                    <a href="{% url 'asdut' %}">
+    <span class="icon"><i class="fas fa-book"></i></span>
+    <span class="item">Assign Duties</span>
+</a>
                 </li>
+                <li>
+    <a href="{% url 'user_list' %}">
+        <span class="icon"><i class="fas fa-users"></i></span>
+        <span class="item">User List</span>
+    </a>
+</li>
                 <li>
                     <!-- <a href="#">
                         <span class="icon"><i class="fas fa-chart-line"></i></span>
@@ -504,9 +510,9 @@ footer{
                 <div class = "grid-container">
                   <div  class="grid-item">
                    
-                 <a  href=/firip type=button class="button button1">FIR</a>
-                 <a href='/web-scrapping/' type=button class="button button2">ACCIDENT INFORMATION</a>
-                 <a href='/medrec' type=button class="button button3">MEDICAL RECORDS</button>
+                 <a href="{% url 'firdgp' %}" class="button button1">FIR</a>
+                 <a href="{% url 'web-scrapping' %}" class="button button2">ACCIDENT INFORMATION</a>
+                 <a href="{% url 'medrec' %}" class="button button3">MEDICAL RECORDS</a>
                  <!-- <button class="button button4">lalalal</button>  -->
                  <a href='/successration' type=button class="button button4">SUCCESS RATE</a> 
                  <a href='/userMap' type=button class="button button5">HOTSPOT MAPS</a>

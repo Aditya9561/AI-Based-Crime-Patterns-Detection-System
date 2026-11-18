@@ -1,6 +1,9 @@
 import datetime
 
-from django.shortcuts import render,redirect
+from geopy.geocoders import Nominatim
+from geopy.exc import GeocoderTimedOut, GeocoderServiceError
+
+from django.shortcuts import render, redirect, get_object_or_404
 from .forms import *
 from django.contrib import messages
 from django.contrib.auth.models import Group
@@ -11,10 +14,23 @@ from django.shortcuts import render
 from django.conf import settings
 from django.core.files.storage import FileSystemStorage
 from django.contrib.auth.decorators import login_required,user_passes_test
+from django.contrib.admin.views.decorators import staff_member_required
 import matplotlib.pyplot as plt
 from statsmodels.tsa.arima.model import ARIMA
 # Create your views here.
+def get_crime_coordinates(address):
+    geolocator = Nominatim(user_agent="crime_pattern_detection_system")
 
+    try:
+        location = geolocator.geocode(address, timeout=10)
+
+        if location:
+            return location.latitude, location.longitude
+
+    except (GeocoderTimedOut, GeocoderServiceError):
+        return None, None
+
+    return None, None
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -37,32 +53,44 @@ def index(request):
     return render(request,'index.html')
 
 def register(request):
-    form=officialForm()
-    form2=officeForm()
-    mydict={'form':form,'form2':form2}
-    if request.method=='POST':
-        form=officialForm(request.POST) 
-        form2=officeForm(request.POST)
+    if request.method == 'POST':
+        form = officialForm(request.POST)
+        form2 = officeForm(request.POST)
+
         if form.is_valid() and form2.is_valid():
-            print(1)
-            user=form.save()
+            user = form.save()
             user.set_password(user.password)
             user.save()
-            messages.success(request,f'You have successfully registered!')
-            official=form2.save(commit=True)
-            official.user=user
-            official.save()
-            group=Group.objects.get_or_create(name="Common")
-            group[0].user_set.add(user)
-            return redirect('login')
 
-    return render(request,'register.html',context=mydict)
+            official_obj = form2.save(commit=False)
+            official_obj.user = user
+            official_obj.save()
+
+            messages.success(request, 'You have successfully registered!')
+
+            group, created = Group.objects.get_or_create(name="Common")
+            group.user_set.add(user)
+
+            return redirect('login')
+    else:
+        form = officialForm()
+        form2 = officeForm()
+
+    context = {'form': form, 'form2': form2}
+    return render(request, 'register.html', context=context)
 
 
 def is_common(user):
     return user.groups.filter(name="Common").exists()
 
+@login_required(login_url='login')
+
 def afterlogin_view(request):
+    # System administrator
+    if request.user.is_superuser or request.user.is_staff:
+        return redirect('register')
+
+    # Police and normal user roles
     if is_common(request.user):
         return redirect('home')
     elif is_ip(request.user):
@@ -71,6 +99,13 @@ def afterlogin_view(request):
         return redirect('homesp')
     elif is_dgp(request.user):
         return redirect('homedgp')
+
+    messages.error(
+        request,
+        'Your account is not assigned to a valid user role. Please contact the administrator.'
+    )
+    return redirect('index')
+
      
 
 @login_required(login_url='login')
@@ -127,28 +162,33 @@ def prof(request):
 
 #IP registration
 
+@staff_member_required(login_url='login')
 def registerip(request):
-    form=officialFormIP()
-    form2=officeFormIP()
-    mydict={'form':form,'form2':form2}
-    if request.method=='POST':
-        form=officialFormIP(request.POST) 
-        form2=officeFormIP(request.POST)
+    if request.method == 'POST':
+        form = officialFormIP(request.POST)
+        form2 = officeFormIP(request.POST)
+
         if form.is_valid() and form2.is_valid():
-            print(1)
-            user=form.save()
+            user = form.save()
             user.set_password(user.password)
             user.save()
-            messages.success(request,f'You have successfully registered!')
-            officialip=form2.save(commit=True)
-            officialip.user=user
-            officialip.save()
-            group=Group.objects.get_or_create(name="ip")
-            group[0].user_set.add(user)
+
+            official_obj = form2.save(commit=False)
+            official_obj.user = user
+            official_obj.save()
+
+            messages.success(request, 'You have successfully registered!')
+
+            group, created = Group.objects.get_or_create(name="ip")
+            group.user_set.add(user)
+
             return redirect('login')
+    else:
+        form = officialFormIP()
+        form2 = officeFormIP()
 
-    return render(request,'registerip.html',context=mydict)
-
+    context = {'form': form, 'form2': form2}
+    return render(request, 'registerip.html', context=context)
 
 def is_ip(user):
     return user.groups.filter(name="ip").exists()
@@ -197,27 +237,33 @@ def prof1(request):
 
 #SP registration form
 
+@staff_member_required(login_url='login')
 def registersp(request):
-    form=officialFormSP()
-    form2=officeFormSP()
-    mydict={'form':form,'form2':form2}
-    if request.method=='POST':
-        form=officialFormSP(request.POST) 
-        form2=officeFormSP(request.POST)
+    if request.method == 'POST':
+        form = officialFormSP(request.POST)
+        form2 = officeFormSP(request.POST)
+
         if form.is_valid() and form2.is_valid():
-            print(1)
-            user=form.save()
+            user = form.save()
             user.set_password(user.password)
             user.save()
-            messages.success(request,f'You have successfully registered!')
-            officialsp=form2.save(commit=True)
-            officialsp.user=user
-            officialsp.save()
-            group=Group.objects.get_or_create(name="sp")
-            group[0].user_set.add(user)
-            return redirect('login')
 
-    return render(request,'registersp.html',context=mydict)
+            official_obj = form2.save(commit=False)
+            official_obj.user = user
+            official_obj.save()
+
+            messages.success(request, 'You have successfully registered!')
+
+            group, created = Group.objects.get_or_create(name="sp")
+            group.user_set.add(user)
+
+            return redirect('login')
+    else:
+        form = officialFormSP()
+        form2 = officeFormSP()
+
+    context = {'form': form, 'form2': form2}
+    return render(request, 'registersp.html', context=context)
 
 
 def is_sp(user):
@@ -267,27 +313,33 @@ def prof2(request):
 
 #DGP registration form
 
+@staff_member_required(login_url='login')
 def registerdgp(request):
-    form=officialFormDGP()
-    form2=officeFormDGP()
-    mydict={'form':form,'form2':form2}
-    if request.method=='POST':
-        form=officialFormDGP(request.POST) 
-        form2=officeFormDGP(request.POST)
+    if request.method == 'POST':
+        form = officialFormDGP(request.POST)
+        form2 = officeFormDGP(request.POST)
+
         if form.is_valid() and form2.is_valid():
-            print(1)
-            user=form.save()
+            user = form.save()
             user.set_password(user.password)
             user.save()
-            messages.success(request,f'You have successfully registered!')
-            officialdgp=form2.save(commit=True)
-            officialdgp.user=user
-            officialdgp.save()
-            group=Group.objects.get_or_create(name="dgp")
-            group[0].user_set.add(user)
-            return redirect('login')
 
-    return render(request,'registerdgp.html',context=mydict)
+            official_obj = form2.save(commit=False)
+            official_obj.user = user
+            official_obj.save()
+
+            messages.success(request, 'You have successfully registered!')
+
+            group, created = Group.objects.get_or_create(name="dgp")
+            group.user_set.add(user)
+
+            return redirect('login')
+    else:
+        form = officialFormDGP()
+        form2 = officeFormDGP()
+
+    context = {'form': form, 'form2': form2}
+    return render(request, 'registerdgp.html', context=context)
 
 
 def is_dgp(user):
@@ -334,15 +386,26 @@ def prof3(request):
     return render(request,'profiledgp.html',context)
 
 
+@login_required(login_url='login')
+@user_passes_test(is_common, login_url='login')
 def Fir(request):
     return render(request, "fir.html")
 
+
+@login_required(login_url='login')
+@user_passes_test(is_ip, login_url='login')
 def Fir1(request):
     return render(request, "firip.html")
 
+
+@login_required(login_url='login')
+@user_passes_test(is_sp, login_url='login')
 def Fir2(request):
     return render(request, "firsp.html")
 
+
+@login_required(login_url='login')
+@user_passes_test(is_dgp, login_url='login')
 def Fir3(request):
     return render(request, "firdgp.html")
 
@@ -355,7 +418,8 @@ def Gallery(request):
 def WeeklyDiary(request):
     return render(request, "weeklydiary.html")
 
-
+@login_required(login_url='login')
+@user_passes_test(is_dgp)
 def firform(request):
     if request.method == 'POST':
         form = FirForm1(request.POST)
@@ -384,17 +448,34 @@ def firform(request):
 #         form = FirForm1()
 
 
+@login_required(login_url='login')
+@user_passes_test(is_dgp, login_url='index')
 def MedicalRecords_view(request):
-    md=medicalrecords.objects.all()
-    mydict={
-        "data":md
+    md = medicalrecords.objects.all()
+    mydict = {
+        "data": md
     }
+    return render(request, "medrec.html", context=mydict)
 
-    return render(request, "medrec.html",context=mydict)
 
+@login_required
+@user_passes_test(is_dgp)
 def AssignDuties(request):
-    ad=assignduties.objects.all()
-    return render(request, "asdut.html")
+    ad = assignduties.objects.all().order_by('-id')
+
+    if request.method == 'POST':
+        form = AssignDutiesForm(request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, "Duty assigned successfully!")
+            return redirect('asdut')
+    else:
+        form = AssignDutiesForm()
+
+    return render(request, "asdut.html", {
+        'form': form,
+        'ad': ad
+    })
 
 def successration(request):
     md=medicalrecords.objects.values('hospital').distinct()
@@ -433,34 +514,53 @@ def view_fir(request):
 
 
 def userMap(request):
-    # Get latitude and longitude coordinates from a database or other source
-    directions=Location.objects.all()
+    directions = Location.objects.all()
     coordinates = []
 
     for i in directions:
-        for j in range(len(directions)):
-            lat = float(i.lang)
-            lng = float(i.long)
-            coordinates.append({'lat': lat, 'lng': lng})
+        lat = float(i.lang)
+        lng = float(i.long)
+
+        coordinates.append({
+    'lat': lat,
+    'lng': lng,
+    'address': i.address
+})
+
     context = {
         'coordinates': coordinates,
     }
 
-    return render(request, 'userMap.html',context)
+    return render(request, 'userMap.html', context)
 
 from django.contrib.auth.models import Group, User
 
 from django.shortcuts import render
 
+@login_required(login_url='login')
+@user_passes_test(is_dgp, login_url='index')
 def user_list(request):
     if request.method == 'POST':
-        Duty.objects.create(user_id=request.POST.get('user_id'),duty = request.POST.get('duty'),name=request.user.first_name)
-        return redirect('homedgp')
+        user_id = request.POST.get('user_id')
+        duty = request.POST.get('duty', '').strip()
 
+        if not user_id or not duty:
+            messages.error(request, "Please select an officer and enter a duty.")
+            return redirect('user_list')
 
-    else:
-        users = User.objects.all()
-        return render(request, 'user_list.html', {'users': users})
+        selected_user = get_object_or_404(User, id=user_id)
+
+        Duty.objects.create(
+            user=selected_user,
+            duty=duty,
+            name=request.user.first_name
+        )
+
+        messages.success(request, "Duty assigned successfully!")
+        return redirect('user_list')
+
+    users = User.objects.all()
+    return render(request, 'user_list.html', {'users': users})
 
 
 from django.shortcuts import render

@@ -25,6 +25,11 @@
 
   <body>
     <header class="jumbotron">
+      <div class="container mt-3">
+    <a href="{% url 'afterlogin' %}" class="btn btn-dark">
+        ← Back to Dashboard
+    </a>
+</div>
       <h1 class="display-3">Tour Programme</h1>
       <p id="currentDay" class="lead display-4"></p>
       <button id="clearFieldsBtn" type="button" class="btn btn-secondary" aria-label="clear fields button">

@@ -1,9 +1,187 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>IFrame Example</title>
+    <title>Road Accident Statistics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .back-btn {
+            display: inline-block;
+            padding: 10px 16px;
+            background: #0f0453;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #172554;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 25px 0;
+        }
+
+        .card {
+            flex: 1;
+            min-width: 200px;
+            background: white;
+            padding: 22px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ddd;
+        }
+
+        .card h3 {
+            color: #555;
+        }
+
+        .card p {
+            font-size: 25px;
+            font-weight: bold;
+            color: #172554;
+        }
+
+        .chart-box, .table-box {
+            background: white;
+            padding: 20px;
+            margin-top: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px #ddd;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background: #172554;
+            color: white;
+        }
+
+        .source {
+            margin-top: 25px;
+            color: #555;
+            font-size: 14px;
+        }
+    </style>
 </head>
+
 <body>
-    <iframe src="http://www.seccloudstorage.in/accident/accident_information_list.php" width="100%" height="500px"></iframe>
+<div class="container">
+
+    <a href="{% url 'afterlogin' %}" class="back-btn">
+        ← Back to Dashboard
+    </a>
+
+    <h1>Road Accident Statistics in India</h1>
+    <p>National road safety statistics from 2020 to 2023.</p>
+
+    <div class="cards">
+        <div class="card">
+            <h3>Accidents in 2023</h3>
+            <p>4,80,583</p>
+        </div>
+
+        <div class="card">
+            <h3>Deaths in 2023</h3>
+            <p>1,72,890</p>
+        </div>
+
+        <div class="card">
+            <h3>Injuries in 2023</h3>
+            <p>4,62,825</p>
+        </div>
+    </div>
+
+    <div class="chart-box">
+        <h2>Year-wise Road Accidents</h2>
+        <canvas id="accidentChart"></canvas>
+    </div>
+
+    <div class="table-box">
+        <h2>Annual Statistics</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Accidents</th>
+                    <th>Deaths</th>
+                    <th>Injuries</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr><td>2020</td><td>3,72,181</td><td>1,38,383</td><td>3,46,747</td></tr>
+                <tr><td>2021</td><td>4,12,432</td><td>1,53,972</td><td>3,84,448</td></tr>
+                <tr><td>2022</td><td>4,61,312</td><td>1,68,491</td><td>4,43,366</td></tr>
+                <tr><td>2023</td><td>4,80,583</td><td>1,72,890</td><td>4,62,825</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="source">
+        <p>
+            Source: Ministry of Road Transport and Highways,
+            Government of India.
+        </p>
+        <a href="https://morth.gov.in/backend/documents/uploaded/Road-Accident-in-India-2023-Publications.pdf"
+           target="_blank">
+            View Official Road Accidents in India 2023 Report
+        </a>
+        <p>Data shown is historical national-level data, not live accident reporting.</p>
+    </div>
+
+</div>
+
+<script>
+    const ctx = document.getElementById('accidentChart');
+
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: ['2020', '2021', '2022', '2023'],
+            datasets: [{
+                label: 'Number of Road Accidents',
+                data: [372181, 412432, 461312, 480583],
+                backgroundColor: '#2563eb'
+            }]
+        },
+        options: {
+            responsive: true,
+            scales: {
+                y: {
+                    beginAtZero: true
+                }
+            }
+        }
+    });
+</script>
+
 </body>
 </html>

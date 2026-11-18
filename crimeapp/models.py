@@ -105,10 +105,6 @@ class Achievement(models.Model):
     image = models.ImageField(upload_to='achievements/')
     upload_date = models.DateTimeField(auto_now_add=True)
     text= models.CharField(max_length=200)
-class Location(models.Model):
-    lang = models.FloatField()
-    long = models.FloatField()
-    address = models.TextField()
 
 class Post(models.Model):
     place= models.CharField(max_length=300, unique=False)

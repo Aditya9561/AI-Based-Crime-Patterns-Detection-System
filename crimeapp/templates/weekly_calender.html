@@ -81,6 +81,10 @@
 <body>
 
   <div class="container">
+    <a href="{% url 'afterlogin' %}" style="display:inline-block; padding:10px 16px; background:#0f0453; color:white; text-decoration:none; border-radius:6px; margin-bottom:15px;">
+        ← Back to Dashboard
+    </a>
+
     <h1>Weekly Character Entry</h1>
     <form method="POST" action="{% url 'weekly_calendar' %}">
       {% csrf_token %}
